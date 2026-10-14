@@ -1,0 +1,2531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Utdanning studiedashboard//NO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Utdanning H26
+X-WR-TIMEZONE:Europe/Oslo
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:utd-FAF100-20260814-canvaspner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:NIH – Canvas åpner (FAF100\, KRØ100\, KRØ101\, SPM105)
+DESCRIPTION:Canvas åpner kl. 09.00 for NIH-emnene. Kilde: NIH Canvas-kalender. (Erstatter tidligere 14.8 for FAF100.)
+DTSTART;TZID=Europe/Oslo:20260810T090000
+DTEND;TZID=Europe/Oslo:20260810T100000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NIH – Canvas åpner (FAF100\, KRØ100\, KRØ101\, SPM105)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260801-semesterregistreringpner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:IKF108 – Semesterregistrering åpner (Volda)
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Semesterregistrering åpner (Volda)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260801-semesterregistreringogbe@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:SPESPED101 – Semesterregistrering og betaling åpner (HiØF)
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Semesterregistrering og betaling åpner (HiØF)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20260811-digitaltforkursiakademis@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MSH-SH4100 – Digitalt forkurs i akademisk skriving
+DESCRIPTION:Digitalt (Zoom)\, frivillig. 11.8: 09.15–11.00 akademisk skriving (Hanna Kavli Lodberg-Holm)\; 12.00–13.45 kunnskapsbasert praksis (Anita Nordsteien)\; 14.00–15.00 introduksjon til bibliotek/Oria og kildehenvisning (Marit Gjone Sandsleth). 12.8: 09.15–11.30 artikkelsøk i databaser (Sandsleth)\; 12.30–13.30 kritisk vurdering av forskning (Nordsteien)\; 13.45–15.00 KI i høyere utdanning (Sandsleth).
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260813
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Digitalt forkurs i akademisk skriving
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20260817-obligatoriskstudiestartp@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MSH-SH4100 – Obligatorisk studiestart\, Porsgrunn
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20260817T090000
+DTEND;TZID=Europe/Oslo:20260817T100000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Obligatorisk studiestart\, Porsgrunn
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Obligatorisk studiestart\, Porsgrunn
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20260817-fysisksamlingcampusporsg@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MSH-SH4100 – Fysisk samling\, campus Porsgrunn
+DESCRIPTION:17.8: 09.15 åpning og velkommen (Knut Tore Sælør) + presentasjon av studieprogrammet (Ausland/Meum)\; 10.15 samfunn og helse – perspektiver fra studieretningene\; 13.15 bli kjent og gjennomgang av arbeidskrav (studieretningsvis). 18.8: 09.15 Den nordiske velferdsstaten – har den en fremtid? (Halvard Vike)\; 13.15 inndeling i grupper og arbeid med arbeidskrav. 19.8: 09.15 akademisk skriving (Susanne og Knut Tore)\; 10.15 formulering av problemstilling\; 13.15 litteratursøk-workshop (bibliotekar og faglærere). 20.8: 09.15 introduksjon til KI og læring (Ingelill SB Eide)\; 10.15 sosial ulikhet i helse (Steffen Torp)\; 13.15 arbeid med arbeidskrav og eksamen\; 14.15 oppsummering og evaluering.
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260821
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Fysisk samling\, campus Porsgrunn
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20260819-informasjonsmteikkeoblig@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Informasjonsmøte (ikke obligatorisk)
+DESCRIPTION:Oppstart/introduksjon.
+DTSTART;TZID=Europe/Oslo:20260819T120000
+DTEND;TZID=Europe/Oslo:20260819T130000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Informasjonsmøte (ikke obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260825-frstedigitaleundervisnin@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:SPESPED101 – Undervisning 1: Spesialpedagogikk i historisk perspektiv
+DESCRIPTION:Praktisk info + bli-kjent. Tema: historisk perspektiv (Silje). Befring & Næss kap. 1–2. Min. 70 % deltakelse kreves.
+DTSTART;TZID=Europe/Oslo:20260825T170000
+DTEND;TZID=Europe/Oslo:20260825T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Første digitale undervisning
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Første digitale undervisning
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20260826-samling1aikkeobligatoris@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 1A (ikke obligatorisk)
+DESCRIPTION:Presentasjon av OLA1 og diskusjon av modul 1 i grupper.
+DTSTART;TZID=Europe/Oslo:20260826T120000
+DTEND;TZID=Europe/Oslo:20260826T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 1A (ikke obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20260826-digitaloppstartssamlingd@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital oppstartssamling\, dag 1
+DESCRIPTION:Semesterplan-dokumentet oppgir kl. 17 – Mitt UiB viser kl. 18. Husk semesteravgift/registrering i UiBtreet.
+DTSTART;TZID=Europe/Oslo:20260826T170000
+DTEND;TZID=Europe/Oslo:20260826T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital oppstartssamling\, dag 1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital oppstartssamling\, dag 1
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20260827-digitaloppstartssamlingd@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital oppstartssamling\, dag 2
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20260827T170000
+DTEND;TZID=Europe/Oslo:20260827T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital oppstartssamling\, dag 2
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital oppstartssamling\, dag 2
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1051-IDR1048-20260831-altlringsmaterialetilgje@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:IDR1051 / IDR1048 – Alt læringsmateriale tilgjengelig i Canvas
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1051 / IDR1048 – Alt læringsmateriale tilgjengelig i Canvas
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260901-fristsemesterregistrerin@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:IKF108 – Frist: semesterregistrering og betaling (Volda)
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: semesterregistrering og betaling (Volda)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: semesterregistrering og betaling (Volda)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20260910-frstedigitalenettsamling@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Første digitale nettsamling
+DESCRIPTION:Frivillig
+DTSTART;TZID=Europe/Oslo:20260910T090000
+DTEND;TZID=Europe/Oslo:20260910T130000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Første digitale nettsamling
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20260914-fysisksamlingcampusvestf@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MSH-SH4100 – Fysisk samling\, campus Vestfold
+DESCRIPTION:Datoer bekreftet i undervisningsplanen (uke 38\, man–tors). Time-for-time-program ikke publisert ennå. Minst én aktivitet under samlingen er oppgitt som obligatorisk – bekreft hvilken.
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260918
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Fysisk samling\, campus Vestfold
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Fysisk samling\, campus Vestfold
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20260914-fristola1bakgrunnproblem@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Frist OLA1: Bakgrunn\, problemstilling og forsøksdesign (min. 400 ord)
+DESCRIPTION:Leveres 2 dager før samling 1B.
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA1: Bakgrunn\, problemstilling og forsøksdesign (min. 400 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA1: Bakgrunn\, problemstilling og forsøksdesign (min. 400 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20260916-samling1bobligatoriskpre@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 1B (obligatorisk): presentasjon av OLA1
+DESCRIPTION:Gruppevis presentasjon (2–5 slides) og muntlig tilbakemelding. OLA1 godkjennes ved levering + deltakelse.
+DTSTART;TZID=Europe/Oslo:20260916T120000
+DTEND;TZID=Europe/Oslo:20260916T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 1B (obligatorisk): presentasjon av OLA1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 1B (obligatorisk): presentasjon av OLA1
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20260916-digitalsamlinglitteratur@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital samling: Litteraturpuslespill
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20260916T170000
+DTEND;TZID=Europe/Oslo:20260916T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling: Litteraturpuslespill
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling: Litteraturpuslespill
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20260923-samling2aikkeobligatoris@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 2A (ikke obligatorisk)
+DESCRIPTION:Presentasjon av OLA2 og diskusjon av modul 2 i grupper.
+DTSTART;TZID=Europe/Oslo:20260923T120000
+DTEND;TZID=Europe/Oslo:20260923T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 2A (ikke obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261012-startpemneperiodenoppgit@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE520 – Start: 9 moduler\, én per uke (12.10–19.12)
+DESCRIPTION:Fem synkrone Zoom-uker (normalt ti kl. 13–15) og fire asynkrone med diskusjonsfrister. Kilde: Canvas-eksport 9.10.
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fem synkrone Zoom-uker (normalt ti kl. 13–15) og fire asynkrone med diskusjonsfrister. Kilde: Canvas-eksport 9.10.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261012-fristola2metodisktilnrmi@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Frist OLA2: Metodisk tilnærming og analyse (min. 400 ord)
+DESCRIPTION:Leveres 2 dager før samling 2B.
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA2: Metodisk tilnærming og analyse (min. 400 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA2: Metodisk tilnærming og analyse (min. 400 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261014-samling2bobligatoriskpre@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 2B (obligatorisk): presentasjon av OLA2
+DESCRIPTION:Gruppevis presentasjon og muntlig tilbakemelding.
+DTSTART;TZID=Europe/Oslo:20261014T120000
+DTEND;TZID=Europe/Oslo:20261014T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 2B (obligatorisk): presentasjon av OLA2
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 2B (obligatorisk): presentasjon av OLA2
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261014-digitalsamling@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital samling
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261014T170000
+DTEND;TZID=Europe/Oslo:20261014T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260811-zoomlive1modul1aldringog@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Zoom Live #1 – Modul 1: Aldring og helse i global kontekst
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260811T130000
+DTEND;TZID=Europe/Oslo:20260811T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Zoom Live #1 – Modul 1: Aldring og helse i global kontekst
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260825-zoomlive2modul3demografi@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Zoom Live #2 – Modul 3: Demografiske\, biopsykososiale og funksjonelle perspektiv
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260825T130000
+DTEND;TZID=Europe/Oslo:20260825T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Zoom Live #2 – Modul 3: Demografiske\, biopsykososiale og funksjonelle perspektiv
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260908-zoomlive3modul5konomiske@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Zoom Live #3 – Modul 5: Økonomiske og politiske perspektiv på sunn aldring
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260908T130000
+DTEND;TZID=Europe/Oslo:20260908T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Zoom Live #3 – Modul 5: Økonomiske og politiske perspektiv på sunn aldring
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260922-zoomlive4modul7tilpassed@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Zoom Live #4 – Modul 7: Tilpassede helsesystem og -tenester for eldre
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260922T130000
+DTEND;TZID=Europe/Oslo:20260922T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Zoom Live #4 – Modul 7: Tilpassede helsesystem og -tenester for eldre
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20261006-mare510zoomkt@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – MARE510 Zoom-økt
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20261006T130000
+DTEND;TZID=Europe/Oslo:20261006T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – MARE510 Zoom-økt
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260813-academicskillsdevelopmen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Academic Skills Development Series (ASDS)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260813T130000
+DTEND;TZID=Europe/Oslo:20260813T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Academic Skills Development Series (ASDS)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260820-academicskillsdevelopmen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Academic Skills Development Series (ASDS)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260820T130000
+DTEND;TZID=Europe/Oslo:20260820T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Academic Skills Development Series (ASDS)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260901-academicskillsdevelopmen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Academic Skills Development Series (ASDS)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260901T130000
+DTEND;TZID=Europe/Oslo:20260901T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Academic Skills Development Series (ASDS)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260915-academicskillsdevelopmen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Academic Skills Development Series (ASDS)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260915T130000
+DTEND;TZID=Europe/Oslo:20260915T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Academic Skills Development Series (ASDS)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260929-academicskillsdevelopmen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Academic Skills Development Series (ASDS)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260929T130000
+DTEND;TZID=Europe/Oslo:20260929T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Academic Skills Development Series (ASDS)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260823-fristmodule2individualdi@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: Module 2 – Individual Digital Stories (obligatorisk)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260823T160000
+DTEND;TZID=Europe/Oslo:20260823T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 2 – Individual Digital Stories (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 2 – Individual Digital Stories (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260830-fristmodule3groupposterp@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: Module 3 – Group Poster Presentation (obligatorisk)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260830T160000
+DTEND;TZID=Europe/Oslo:20260830T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 3 – Group Poster Presentation (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 3 – Group Poster Presentation (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260906-fristmodule4individualno@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – FRIST Module 4: svar på minst ett medstudent-innlegg (obligatorisk)
+DESCRIPTION:Les innleggene i «Module 4: Individual note on socio-cultural perspectives» og svar konstruktivt på minst ett. Eget innlegg (100 ord) hadde frist 3.9 kl. 16.
+DTSTART;TZID=Europe/Oslo:20260906T160000
+DTEND;TZID=Europe/Oslo:20260906T160000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 4 – Individual Note on Socio-Cultural Perspectives (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 4 – Individual Note on Socio-Cultural Perspectives (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260917-fristmodule6criticalrevi@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: Module 6 – Critical Review and Summary of a Scientific Article (obligatorisk)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20260917T160000
+DTEND;TZID=Europe/Oslo:20260917T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 6 – Critical Review and Summary of a Scientific Article (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 6 – Critical Review and Summary of a Scientific Article (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20261001-fristmodule8discussionon@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: Module 8 – Discussion on the Frail Older Persons and Long-Term Care (obligatorisk)
+DESCRIPTION:Kilde: MARE510 Canvas-kalender.
+DTSTART;TZID=Europe/Oslo:20261001T160000
+DTEND;TZID=Europe/Oslo:20261001T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 8 – Discussion on the Frail Older Persons and Long-Term Care (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: Module 8 – Discussion on the Frail Older Persons and Long-Term Care (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260929-fristdisposisjontileksam@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: disposisjon til eksamensmappe (2500 ord) til veileder
+DESCRIPTION:Innlevering av utkast/disposisjon til tildelt veileder. Kilde: MARE510 Course Timeline.
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: disposisjon til eksamensmappe (2500 ord) til veileder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: disposisjon til eksamensmappe (2500 ord) til veileder
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20261004-fristalleobligatoriskelr@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: alle obligatoriske læringsaktiviteter må være fullført
+DESCRIPTION:Modul 2\, 3\, 4\, 6 og 8. Kilde: MARE510 Course Timeline.
+DTSTART;TZID=Europe/Oslo:20261004T170000
+DTEND;TZID=Europe/Oslo:20261004T180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: alle obligatoriske læringsaktiviteter må være fullført
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: alle obligatoriske læringsaktiviteter må være fullført
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20261019-fristportefljeeksamenlev@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE510 – Frist: porteføljeeksamen (leveres som én PDF)
+DESCRIPTION:Fagtekst 3000 ord + refleksjon 500 ord + kunnskapsprodukt. A–F. Kilde: HVL emneside.
+DTSTART;TZID=Europe/Oslo:20261019T120000
+DTEND;TZID=Europe/Oslo:20261019T130000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: porteføljeeksamen (leveres som én PDF)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – Frist: porteføljeeksamen (leveres som én PDF)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20261022-andredigitalenettsamling@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Andre digitale nettsamling
+DESCRIPTION:Frivillig
+DTSTART;TZID=Europe/Oslo:20261022T090000
+DTEND;TZID=Europe/Oslo:20261022T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Andre digitale nettsamling
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261028-samling3aikkeobligatoris@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 3A (ikke obligatorisk)
+DESCRIPTION:Presentasjon av OLA3 og diskusjon av modul 3 i grupper.
+DTSTART;TZID=Europe/Oslo:20261028T120000
+DTEND;TZID=Europe/Oslo:20261028T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 3A (ikke obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261030-fristarbeidsoppgave21500@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Frist: arbeidsoppgave 2 (1500 ord)
+DESCRIPTION:Må leveres – inngår i eksamensmappen.
+DTSTART;TZID=Europe/Oslo:20261030T140000
+DTEND;TZID=Europe/Oslo:20261030T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: arbeidsoppgave 2 (1500 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: arbeidsoppgave 2 (1500 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261002-fristarbeidsoppgave11500@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Frist: arbeidsoppgave 1 (1500 ord)
+DESCRIPTION:Må leveres – inngår i eksamensmappen.
+DTSTART;TZID=Europe/Oslo:20261002T140000
+DTEND;TZID=Europe/Oslo:20261002T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: arbeidsoppgave 1 (1500 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: arbeidsoppgave 1 (1500 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261006-fristtilbakemeldingpmeds@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Frist: feedback til Catharina Nilsen Undrum (runde 1)
+DESCRIPTION:Gi skriftlig feedback på Catharina Nilsen Undrums arbeidsoppgave 1 i Canvas innen 6.10 kl. 16. Veileders feedback kommer 9.10.
+DTSTART;TZID=Europe/Oslo:20261006T160000
+DTEND;TZID=Europe/Oslo:20261006T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: feedback til Catharina Nilsen Undrum (runde 1)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: feedback til Catharina Nilsen Undrum (runde 1)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261103-fristtilbakemeldingpmeds@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Frist: tilbakemelding på medstudents tekst (runde 2)
+DESCRIPTION:Veileders tilbakemelding kommer 6.11.
+DTSTART;TZID=Europe/Oslo:20261103T160000
+DTEND;TZID=Europe/Oslo:20261103T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: tilbakemelding på medstudents tekst (runde 2)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Frist: tilbakemelding på medstudents tekst (runde 2)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261111-digitalsamling@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital samling
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261111T170000
+DTEND;TZID=Europe/Oslo:20261111T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261202-digitalsamlingommappeeks@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Digital samling: Om mappeeksamen
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261202T170000
+DTEND;TZID=Europe/Oslo:20261202T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling: Om mappeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Digital samling: Om mappeeksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261124-trekkfristeksamenmappe@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Trekkfrist eksamen (mappe)
+DESCRIPTION:Kilde: UiB emneside (Inspera).
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Trekkfrist eksamen (mappe)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Trekkfrist eksamen (mappe)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-PED323-20261208-innleveringeksamensmappe@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:PED323 – Innlevering eksamensmappe
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261208T130000
+DTEND;TZID=Europe/Oslo:20261208T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Innlevering eksamensmappe
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PED323 – Innlevering eksamensmappe
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20261109-fysisksamlingcampusdramm@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MSH-SH4100 – Fysisk samling\, campus Drammen
+DESCRIPTION:Datoer bekreftet i undervisningsplanen (uke 46\, man–ons). Time-for-time-program ikke publisert ennå. Eksamen: uke 48 – dato kommer.
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261112
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – Fysisk samling\, campus Drammen
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261116-fristola3resultatogdisku@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Frist OLA3: Resultat og diskusjon (min. 400 ord)
+DESCRIPTION:Leveres 2 dager før samling 3B.
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA3: Resultat og diskusjon (min. 400 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Frist OLA3: Resultat og diskusjon (min. 400 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261118-samling3bobligatoriskpre@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Samling 3B (obligatorisk): presentasjon av OLA3
+DESCRIPTION:Gruppevis presentasjon og muntlig tilbakemelding. Alle OLA må godkjennes senest 2 uker før eksamen.
+DTSTART;TZID=Europe/Oslo:20261118T120000
+DTEND;TZID=Europe/Oslo:20261118T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 3B (obligatorisk): presentasjon av OLA3
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Samling 3B (obligatorisk): presentasjon av OLA3
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261211-hjemmeeksamenleverfullst@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Hjemmeeksamen: lever fullstendig oppgave (3000 ord ±10 %)
+DESCRIPTION:Del 1 av eksamen\, basert på eget forskningsprosjekt. Metodedelene vektlegges særlig.
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Hjemmeeksamen: lever fullstendig oppgave (3000 ord ±10 %)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Hjemmeeksamen: lever fullstendig oppgave (3000 ord ±10 %)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261211-sluttpemneperiodenoppgit@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE520 – Slutt på modulundervisningen (selvstudium 14.–16.12)
+DESCRIPTION:Kilde: Canvas-eksport 9.10.
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kilde: Canvas-eksport 9.10.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ERN851-20261217-justerendedigitalmuntlig@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:ERN851 – Justerende digital muntlig eksamen
+DESCRIPTION:17. eller 18. desember – individuell tid kommer.
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Justerende digital muntlig eksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Justerende digital muntlig eksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261217-individuellmuntligeksame@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MARE520 – Individuell muntlig eksamen på Zoom (17. eller 18.12\, kl. 12–17)
+DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260813-digitalundervisninginfor@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning: informasjon/oppstart
+DESCRIPTION:Henta frå HVL Canvas (TimeEdit). Underviser: Ingrid Laukeland Djupegot.
+DTSTART;TZID=Europe/Oslo:20260813T090000
+DTEND;TZID=Europe/Oslo:20260813T100000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning: informasjon/oppstart
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260827-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20260827T090000
+DTEND;TZID=Europe/Oslo:20260827T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260910-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Samling 2: Problemanalyse og brukermedvirkning
+DESCRIPTION:Zoom (lenke i Canvas). Intro modul 2 → gruppearbeid om arbeidsoppdrag 2 → oppsummering + gjennomgang av arbeidsoppdrag 3. Lever AO2 innen 6.9.
+DTSTART;TZID=Europe/Oslo:20260910T090000
+DTEND;TZID=Europe/Oslo:20260910T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261001-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261001T090000
+DTEND;TZID=Europe/Oslo:20261001T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261022-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261022T090000
+DTEND;TZID=Europe/Oslo:20261022T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261105-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261105T090000
+DTEND;TZID=Europe/Oslo:20261105T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261126-digitalundervisning@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Digital undervisning
+DESCRIPTION:Fra Utdanning-dashbordet.
+DTSTART;TZID=Europe/Oslo:20261126T090000
+DTEND;TZID=Europe/Oslo:20261126T110000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Digital undervisning
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260823-fristarbeidsoppdrag1kbpm@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Frist: Arbeidsoppdrag 1 (KBP-modellen + folkehelseutfordring\, APA7)
+DESCRIPTION:To deler\, leveres som én samlet fil: Del 1 (inntil 400 ord) om 3–5 informasjonskilder plassert i KBP-modellen med styrker/svakheter\; Del 2 (200 ord) om en folkehelseutfordring + kunnskapsbasert spørsmål. Anbefalt quiz i modul 1 først. 1 av 6 arbeidsoppdrag.
+DTSTART;TZID=Europe/Oslo:20260823T235900
+DTEND;TZID=Europe/Oslo:20260823T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist: Arbeidsoppdrag 1 (KBP-modellen + folkehelseutfordring\, APA7)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist: Arbeidsoppdrag 1 (KBP-modellen + folkehelseutfordring\, APA7)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261218-fristinnleveringeksamens@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:FHA851 – Frist: innlevering eksamensmappe (Wiseflow)
+DESCRIPTION:Mappevurdering (bestått/ikke bestått): de seks reviderte arbeidsoppdragene + refleksjonstekst 500 ord (APA7). Mappa åpner senest 1 uke før.
+DTSTART;TZID=Europe/Oslo:20261218T140000
+DTEND;TZID=Europe/Oslo:20261218T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist: innlevering eksamensmappe (Wiseflow)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist: innlevering eksamensmappe (Wiseflow)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20261109-fristmappeinnlevering2in@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Frist: mappeinnlevering (2 individuelle oppgaver)
+DESCRIPTION:Teller 30 %. To individuelle innleveringer levert samlet. Karakter A–F.
+DTSTART;TZID=Europe/Oslo:20261109T140000
+DTEND;TZID=Europe/Oslo:20261109T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Frist: mappeinnlevering (2 individuelle oppgaver)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Frist: mappeinnlevering (2 individuelle oppgaver)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20261126-individuell7dagershjemme@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Individuell hjemmeeksamen: uttak 19.11 kl. 09\, innlevering 25.11 kl. 14 (WISEflow)
+DESCRIPTION:Teller 70 %. Karakter A–F. Digital presentasjon av eksamensoppgaven samme dag som utlevering. Rettet 15.9 etter Studentweb (med forbehold om endring).
+DTSTART;TZID=Europe/Oslo:20261119T090000
+DTEND;TZID=Europe/Oslo:20261125T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Individuell 7-dagers hjemmeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Individuell 7-dagers hjemmeeksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20260831-modul10pnernasjonalekost@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Modul 1.0 åpner: Nasjonale kostholdsråd og verktøy (studiestart uke 36)
+DESCRIPTION:Canvas åpent frå 13.7\; introduksjonsmodul i august. Modulene tas i rekkefølge.
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Modul 1.0 åpner: Nasjonale kostholdsråd og verktøy (studiestart uke 36)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20260907-modul20pnerernringogkost@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Modul 2.0 åpner: Ernæring og kosthold i ulike grupper (uke 37)
+DESCRIPTION:Forutsatt at modul 1.0 er merket ferdig.
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Modul 2.0 åpner: Ernæring og kosthold i ulike grupper (uke 37)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20260921-modul30pnerenergiogenerg@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Modul 3.0 åpner: Energi og energigivende næringsstoffer (uke 39\, tentativt)
+DESCRIPTION:Tentativ publiseringsuke oppgitt i emnebeskrivelsen.
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Modul 3.0 åpner: Energi og energigivende næringsstoffer (uke 39\, tentativt)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20261005-modul40pnerbrekraftigmat@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Modul 4.0 åpner: Bærekraftig matproduksjon\, kosthold og forbruk (uke 41\, tentativt)
+DESCRIPTION:Tentativ publiseringsuke oppgitt i emnebeskrivelsen.
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Modul 4.0 åpner: Bærekraftig matproduksjon\, kosthold og forbruk (uke 41\, tentativt)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MOH7001-20261026-modul50pnermatvaregruppe@playful-naiad-32224f.netlify.app
+DTSTAMP:20260804T120000Z
+SUMMARY:MOH7001 – Modul 5.0 åpner: Matvaregrupper\, matvarekunnskap og matvarekvalitet (uke 44\, tentativt)
+DESCRIPTION:Tentativ publiseringsuke oppgitt i emnebeskrivelsen.
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MOH7001 – Modul 5.0 åpner: Matvaregrupper\, matvarekunnskap og matvarekvalitet (uke 44\, tentativt)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20260826-introduksjonskthanstad@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – Introduksjonsøkt (Hanstad)
+DESCRIPTION:Zoom – lenke kommer i Canvas.
+DTSTART;TZID=Europe/Oslo:20260826T130000
+DTEND;TZID=Europe/Oslo:20260826T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Introduksjonsøkt (Hanstad)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20260911-fristleveringlittommegse@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – Frist: levering «Litt om meg selv»
+DESCRIPTION:Klokkeslett ikke oppgitt. Godkjenning av arbeidskrav 19.11.
+DTSTART;TZID=Europe/Oslo:20260911T160000
+DTEND;TZID=Europe/Oslo:20260911T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist: levering «Litt om meg selv»
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist: levering «Litt om meg selv»
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20260930-pentimeveiledninghanstad@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – Åpen time / veiledning (Hanstad)
+DESCRIPTION:Zoom – lenke kommer i Canvas.
+DTSTART;TZID=Europe/Oslo:20260930T130000
+DTEND;TZID=Europe/Oslo:20260930T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Åpen time / veiledning (Hanstad)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261112-sistefristfortilbakemeld@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – Siste frist for tilbakemelding
+DESCRIPTION:
+DTSTART;TZID=Europe/Oslo:20261112T160000
+DTEND;TZID=Europe/Oslo:20261112T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Siste frist for tilbakemelding
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Siste frist for tilbakemelding
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261119-fristforgodkjenningavarb@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – Frist for godkjenning av arbeidskrav
+DESCRIPTION:Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261119T160000
+DTEND;TZID=Europe/Oslo:20261119T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist for godkjenning av arbeidskrav
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist for godkjenning av arbeidskrav
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261127-3ukershjemmeeksamen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260809T160000Z
+SUMMARY:SPM105 – 3-ukers hjemmeeksamen
+DESCRIPTION:Utlevering 27.11\; innlevering 18.12 kl. 14.00 i Wiseflow.
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261219
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – 3-ukers hjemmeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – 3-ukers hjemmeeksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261001-fristmodul0avslutningsop@playful-naiad-32224f.netlify.app
+DTSTAMP:20260810T130000Z
+SUMMARY:SPM105 – Frist: Modul 0 avslutningsoppgave (interessentøvelse)
+DESCRIPTION:Leveres som PDF i Canvas. NB: Etter 1.10 regnes du ikke lenger som aktiv student i emnet.
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist: Modul 0 avslutningsoppgave
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – Frist: Modul 0 avslutningsoppgave
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20260817-temamodulerlegges@playful-naiad-32224f.netlify.app
+DTSTAMP:20260811T100000Z
+SUMMARY:KRØ100 – Tema-modulene 1–5 legges ut i Canvas
+DESCRIPTION:Selvstudium – ingen oppmøtetid. Tema 1 er portåpner og må godkjennes før tema 2–5. Kilde: Canvas-eksport 11.8.
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – Tema-modulene 1–5 legges ut i Canvas
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIK1017-20261215-eksamensinnlevering@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T170000Z
+SUMMARY:MIK-1017 – Eksamen: flervalg i Canvas (frist 15.12 kl. 17)
+DESCRIPTION:20 spørsmål\, 30 min\, min. 17/20 riktig\, ubegrensede forsøk. «Rapporten» = MIK-1017-emnet.
+DTSTART;TZID=Europe/Oslo:20261215T170000
+DTEND;TZID=Europe/Oslo:20261215T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1017 – Eksamensinnlevering
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1017 – Eksamensinnlevering (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIKVINDU-20260915-forstevinduapner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T170000Z
+SUMMARY:UiT mikro (MIK-1005/1025) – første eksamensvindu åpner
+DESCRIPTION:Tre vinduer: 15.9–15.10 · 16.10–15.11 · 16.11–15.12. Flervalg i Canvas\, bestått/ikke bestått\, ingen kont. MIK-1005: eksamen bestått 15.9.2026 – emnet fullført\, gjelder nå bare MIK-1025.
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UiT mikro – første eksamensvindu åpner
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIKVINDU-20261215-sistevindustenger@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T170000Z
+SUMMARY:UiT mikro (MIK-1025) – siste eksamensvindu stenger (reserve – vindu 1 valgt)
+DESCRIPTION:Vindu 3 (16.11–15.12) er siste sjanse. Ingen kont. Gjelder nå bare MIK-1025 (MIK-1005 fullført 15.9\, MIK-1017 fullført 7.9).
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UiT mikro – siste eksamensvindu stenger
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UiT mikro – siste eksamensvindu stenger (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260820-modul1apner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Modul 1 åpner: Energiomsetning og energibehov
+DESCRIPTION:Hjartåker (2026) kap. 5. All undervisning digital/asynkron i Canvas.
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Modul 1 åpner: Energiomsetning og energibehov
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260824-fordoyelsenmakro@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Publisering: Fordøyelsen + makronæringsstoff
+DESCRIPTION:Kap. 6–8.
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Publisering: Fordøyelsen + makronæringsstoff
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260831-mikronaering@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Publisering: Mikronæringsstoff
+DESCRIPTION:Vitamin og mineral – kap. 9–11.
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Publisering: Mikronæringsstoff
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260907-vaeskeflersvar1@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Publisering: Væske/elektrolyttar + flersvarsoppgave 1
+DESCRIPTION:Kap. 9. Arbeidskrav 1 – frist 13.9 kl. 23.59.
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Publisering: Væske/elektrolyttar + flersvarsoppgave 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260913-fristflersvar1@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Frist: flersvarsoppgave modul 1
+DESCRIPTION:Arbeidskrav 1 av 3 – må godkjennes før eksamen.
+DTSTART;TZID=Europe/Oslo:20260913T225900
+DTEND;TZID=Europe/Oslo:20260913T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: flersvarsoppgave modul 1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: flersvarsoppgave modul 1 (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260914-modul2apner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Modul 2 åpner: Helse og ernæring
+DESCRIPTION:Metode/forsking, kostregistrering, kosthaldsråd, kosttilskot, berekraft. Kap. 12 + artikkelsamling.
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Modul 2 åpner: Helse og ernæring
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20260921-kosthaldlivsstil@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Publisering: Kosthaldet i Noreg + livsstilssjukdommar
+DESCRIPTION:Kap. 3 + 13–15. Skriftleg oppgåve (1500 ord) publiseres – frist 11.10.
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Publisering: Kosthaldet i Noreg + livsstilssjukdommar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20261011-fristskriftleg@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Frist: skriftleg oppgåve (1500 ord)
+DESCRIPTION:Arbeidskrav 2 av 3.
+DTSTART;TZID=Europe/Oslo:20261011T225900
+DTEND;TZID=Europe/Oslo:20261011T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: skriftleg oppgåve (1500 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: skriftleg oppgåve (1500 ord) (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20261012-modul3apner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Modul 3 åpner: Ernæring og kosthald i ulike grupper
+DESCRIPTION:Kap. 15 + artikkelsamling.
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Modul 3 åpner: Ernæring og kosthald i ulike grupper
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20261019-flersvar3pub@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Publisering: flersvarsoppgave modul 3
+DESCRIPTION:Arbeidskrav 3 – frist 25.10 kl. 23.59.
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Publisering: flersvarsoppgave modul 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20261025-fristflersvar3@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Frist: flersvarsoppgave modul 3
+DESCRIPTION:Siste arbeidskrav – alle må være godkjent før eksamen.
+DTSTART;TZID=Europe/Oslo:20261025T225900
+DTEND;TZID=Europe/Oslo:20261025T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: flersvarsoppgave modul 3
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Frist: flersvarsoppgave modul 3 (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IKF108-20261123-hjemmeeksamen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260812T180000Z
+SUMMARY:IKF108 – Eksamen: 24-timers hjemmeeksamen
+DESCRIPTION:Uke 48. Maks 2500 ord, Inspera.
+DTSTART;TZID=Europe/Oslo:20261123T100000
+DTEND;TZID=Europe/Oslo:20261124T100000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Eksamen: 24-timers hjemmeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IKF108 – Eksamen: 24-timers hjemmeeksamen (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260906-fristarbeidsoppdrag2@playful-naiad-32224f.netlify.app
+DTSTAMP:20260813T073000Z
+SUMMARY:FHA851 – FRIST Arbeidsoppdrag 2 (problemanalyse + brukermedvirkning)
+DESCRIPTION:Del 1 problemanalyse i tabellen\, del 2 brukermedvirkning (2–3 spørsmål\, metoder\, etikk). APA 7\, inntil 300 ord ±10 %\, én fil. Søndag før samling 2. AO1–4 kreves levert innen 26.11.
+DTSTART;TZID=Europe/Oslo:20260906T235900
+DTEND;TZID=Europe/Oslo:20260906T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO2
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO2 (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20260927-fristarbeidsoppdrag3@playful-naiad-32224f.netlify.app
+DTSTAMP:20260813T073000Z
+SUMMARY:FHA851 – Frist: Arbeidsoppdrag 3
+DESCRIPTION:Søndag før samlingen, kl. 23.59. 
+DTSTART;TZID=Europe/Oslo:20260927T235900
+DTEND;TZID=Europe/Oslo:20260927T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO3
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO3 (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261018-fristarbeidsoppdrag4@playful-naiad-32224f.netlify.app
+DTSTAMP:20260813T073000Z
+SUMMARY:FHA851 – Frist: Arbeidsoppdrag 4
+DESCRIPTION:Søndag før samlingen, kl. 23.59. Siste av de fire som kreves for eksamen.
+DTSTART;TZID=Europe/Oslo:20261018T235900
+DTEND;TZID=Europe/Oslo:20261018T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO4
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO4 (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261101-fristarbeidsoppdrag5@playful-naiad-32224f.netlify.app
+DTSTAMP:20260813T073000Z
+SUMMARY:FHA851 – Frist: Arbeidsoppdrag 5
+DESCRIPTION:Søndag før samlingen, kl. 23.59. Inngår i eksamensmappen.
+DTSTART;TZID=Europe/Oslo:20261101T235900
+DTEND;TZID=Europe/Oslo:20261101T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO5
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FHA851-20261122-fristarbeidsoppdrag6@playful-naiad-32224f.netlify.app
+DTSTAMP:20260813T073000Z
+SUMMARY:FHA851 – Frist: Arbeidsoppdrag 6
+DESCRIPTION:Søndag før samlingen, kl. 23.59. Inngår i eksamensmappen.
+DTSTART;TZID=Europe/Oslo:20261122T235900
+DTEND;TZID=Europe/Oslo:20261122T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FHA851 – Frist AO6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260901-undervisning2@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 2: Inkludering og etikk
+DESCRIPTION:Ragnhild. Befring & Næss kap. 3 og 7. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20260901T170000
+DTEND;TZID=Europe/Oslo:20260901T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260908-undervisning3@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 3: Barns rettigheter på skolen
+DESCRIPTION:Ragnhild. Kap. 4 og 11 + Opplæringslova, Barnehageloven, Udir-veileder. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20260908T170000
+DTEND;TZID=Europe/Oslo:20260908T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260915-undervisning4@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 4: Barns rettigheter i barnehagen
+DESCRIPTION:Silje. Kap. 4 + Barnehageloven, Rammeplan. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20260915T170000
+DTEND;TZID=Europe/Oslo:20260915T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 4
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20260922-undervisning5@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 5: Akademisk skriving + oppstart arbeidskrav
+DESCRIPTION:Line. Uke 40 = studieuke. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20260922T170000
+DTEND;TZID=Europe/Oslo:20260922T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 5
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261006-undervisning6@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 6: Spesialpedagogisk arbeid og kartlegging i barnehage
+DESCRIPTION:Silje. Kap. 8, 9 og 25. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20261006T170000
+DTEND;TZID=Europe/Oslo:20261006T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261013-undervisning7@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 7: Kartlegging i skolen
+DESCRIPTION:Ragnhild. Kap. 8 og 26. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20261013T170000
+DTEND;TZID=Europe/Oslo:20261013T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 7
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261020-undervisning8@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 8: Sentrale lærings- og utviklingsteorier
+DESCRIPTION:Ingjerd. Kap. 10 + Tudge & Winterhoff 1993. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20261020T170000
+DTEND;TZID=Europe/Oslo:20261020T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 8
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261027-undervisning9@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 9: Tverrfaglig og tverretatlig samarbeid
+DESCRIPTION:Ina. Kap. 12. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20261027T170000
+DTEND;TZID=Europe/Oslo:20261027T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 9
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261103-undervisning10@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Undervisning 10: Spesialpedagogisk tilrettelegging i vgo
+DESCRIPTION:Ingjerd. Kap. 23 og 27. Eksamensinfo ca. 19.15–20.00. Min. 70 % deltakelse kreves (arbeidskrav).
+DTSTART;TZID=Europe/Oslo:20261103T170000
+DTEND;TZID=Europe/Oslo:20261103T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Undervisning 10
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261007-fristarbeidskravfagtekst@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Frist: arbeidskrav (fagtekst 2000 ord)
+DESCRIPTION:2000 ord ±10 %. Kan omarbeides én gang. Alt godkjent senest 3 uker før eksamen.
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Frist arbeidskrav
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Frist arbeidskrav (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPESPED101-20261125-hjemmeeksamen3dager@playful-naiad-32224f.netlify.app
+DTSTAMP:20260814T085500Z
+SUMMARY:SPESPED101 – Eksamen: 72-timers hjemmeeksamen (ti 24.11 kl. 09 → fre 27.11 kl. 09)
+DESCRIPTION:Maks 2000 ord. A–F\, alle hjelpemidler\, to sensorer. Rettet 15.9 etter semesterplanen.
+DTSTART;TZID=Europe/Oslo:20261124T090000
+DTEND;TZID=Europe/Oslo:20261127T090000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Hjemmeeksamen starter
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPESPED101 – Hjemmeeksamen (2 t)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-THP112-20261101-eksamenapnertematrekkes@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T070000Z
+SUMMARY:THP112 – Eksamen åpner: del 1 (flervalg) · tema del 2 trekkes kl. 08
+DESCRIPTION:Del 1 (90 min flervalg i Canvas\, 80 % krav\, ett forsøk) kan tas fra 1.11. Tema for videopresentasjonen kunngjøres i Canvas kl. 08.00. Krever begge arbeidskrav bestått.
+DTSTART;TZID=Europe/Oslo:20261101T080000
+DTEND;TZID=Europe/Oslo:20261101T090000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:THP112 – Eksamen åpner: del 1 (flervalg) · tema del 2 trekkes kl. 08
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-THP112-20261201-fristvideopresentasjon@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T070000Z
+SUMMARY:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
+DESCRIPTION:Video 5–7 min av trukket tema\, bestått/ikke bestått. Kun ETT forsøk og ÉN opplasting. Alle 9 kriterier må oppfylles.
+DTSTART;TZID=Europe/Oslo:20261201T140000
+DTEND;TZID=Europe/Oslo:20261201T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-THP112-20261201-fristflervalgseksamen@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T070000Z
+SUMMARY:THP112 – FRIST eksamen del 1: flervalg (Canvas)
+DESCRIPTION:90 min\, individuell\, 80 % riktig for bestått\, kun ett forsøk. Åpen 1.11 → 1.12 kl. 23.59.
+DTSTART;TZID=Europe/Oslo:20261201T235900
+DTEND;TZID=Europe/Oslo:20261201T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:THP112 – FRIST eksamen del 1: flervalg (Canvas)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:THP112 – FRIST eksamen del 1: flervalg (Canvas)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FAF100-20260830-fristselftapemodul1@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T135300Z
+SUMMARY:FAF100 – FRIST self-tape «Hvorfor inkluderende kroppsøving?»
+DESCRIPTION:1–2 min video (eller tekst) om egen motivasjon. Canvas-oppgave i modul 1\; stenger 23.59.
+DTSTART;TZID=Europe/Oslo:20260830T180000
+DTEND;TZID=Europe/Oslo:20260830T180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – FRIST self-tape «Hvorfor inkluderende kroppsøving?»
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – FRIST self-tape «Hvorfor inkluderende kroppsøving?»
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FAF100-20261015-fristrefleksjonsnotat@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T135300Z
+SUMMARY:FAF100 – FRIST refleksjonsnotat + revidert del 1
+DESCRIPTION:«Refleksjonsnotat til bruk i vurdering» og «Revider del 1 – om funksjonshemming»\, begge kl. 18.00. Tre revisjonsrunder med tilbakemelding.
+DTSTART;TZID=Europe/Oslo:20261015T180000
+DTEND;TZID=Europe/Oslo:20261015T180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – FRIST refleksjonsnotat + revidert del 1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – FRIST refleksjonsnotat + revidert del 1
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FAF100-20261015-fafseminarnih@playful-naiad-32224f.netlify.app
+DTSTAMP:20260815T135300Z
+SUMMARY:FAF100 – FAF-seminar på NIH (frivillig)
+DESCRIPTION:«Fysisk aktivitet og funksjonshemming» – Beitostølen Helsesportsenter + NIH. Påmelding via nih.no.
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261017
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – FAF-seminar på NIH (frivillig)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIK-1017-20260904-arbeidskravapner@playful-naiad-32224f.netlify.app
+DTSTAMP:20260816T164100Z
+SUMMARY:MIK-1017 – Arbeidskrav åpner for levering (velg AK1 eller AK2)
+DESCRIPTION:Velg ETT arbeidskrav: AK1 Deling av aktivitetsdata eller AK2 Essay (5 p).
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1017 – Arbeidskrav åpner for levering
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20260925-fristarbeidskrav1@playful-naiad-32224f.netlify.app
+DTSTAMP:20260823T093000Z
+SUMMARY:SPM105 – FRIST Arbeidskrav 1 (modul 1)
+DESCRIPTION:500 ord ±10 %\, min. 4 kilder\, APA 7.
+DTSTART;TZID=Europe/Oslo:20260925T160000
+DTEND;TZID=Europe/Oslo:20260925T160000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST Arbeidskrav 1 (modul 1)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST Arbeidskrav 1 (modul 1)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261002-fristarbeidskrav2@playful-naiad-32224f.netlify.app
+DTSTAMP:20260823T093000Z
+SUMMARY:SPM105 – FRIST Arbeidskrav 2 (modul 2)
+DESCRIPTION:Samme formkrav som arbeidskrav 1.
+DTSTART;TZID=Europe/Oslo:20261002T160000
+DTEND;TZID=Europe/Oslo:20261002T160000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST Arbeidskrav 2 (modul 2)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST Arbeidskrav 2 (modul 2)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM105-20261218-fristplagiatkiquiz@playful-naiad-32224f.netlify.app
+DTSTAMP:20260823T093000Z
+SUMMARY:SPM105 – FRIST quiz om plagiat og KI
+DESCRIPTION:Oppspill side 7\, 14 p. Følger eksamensslutt.
+DTSTART;TZID=Europe/Oslo:20261218T143000
+DTEND;TZID=Europe/Oslo:20261218T143000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST quiz om plagiat og KI
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM105 – FRIST quiz om plagiat og KI
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO101-20261021-fristarbeidskrav@playful-naiad-32224f.netlify.app
+DTSTAMP:20260824T091500Z
+SUMMARY:KRØ101 – FRIST arbeidskrav (innlevering)
+DESCRIPTION:Innleveringsfrist 21.10 fra velkomstsiden. To arbeidskrav totalt\; detaljer kommer i egen Arbeidskrav-modul.
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ101 – FRIST arbeidskrav (innlevering)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ101 – FRIST arbeidskrav (innlevering)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO101-20261202-eksamen48t@playful-naiad-32224f.netlify.app
+DTSTAMP:20260824T091500Z
+SUMMARY:KRØ101 – Eksamen: 48-timers hjemmeeksamen
+DESCRIPTION:Utlevering ons 2.12 kl. 14\, innlevering fre 4.12 kl. 14. Bestått/ikke bestått.
+DTSTART;TZID=Europe/Oslo:20261202T140000
+DTEND;TZID=Europe/Oslo:20261204T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ101 – Eksamen: 48-timers hjemmeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ101 – Eksamen: 48-timers hjemmeeksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20261016-fristutkastskriftlig@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T084000Z
+SUMMARY:KRØ100 – FRIST utkast individuelt skriftlig arbeidskrav (medstudentvurdering)
+DESCRIPTION:Last opp utkast til oppgave 1 eller 2 i Canvas (Fyrste levering til medstudentvurdering). Ingen omfangskrav på utkastet.
+DTSTART;TZID=Europe/Oslo:20261016T235900
+DTEND;TZID=Europe/Oslo:20261016T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST utkast individuelt skriftlig arbeidskrav (medstudentvurdering)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST utkast individuelt skriftlig arbeidskrav (medstudentvurdering)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20261023-fristmedstudentvurd@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T084000Z
+SUMMARY:KRØ100 – FRIST medstudentvurdering (1–2 utkast)
+DESCRIPTION:Gi framovermelding på medstudenters utkast i Canvas. Del av arbeidskrav 2.
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST medstudentvurdering (1–2 utkast)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST medstudentvurdering (1–2 utkast)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20261101-fristtema4raad@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T084000Z
+SUMMARY:KRØ100 – FRIST tema 4: «Mitt råd eller tips» (avsluttende oppgave)
+DESCRIPTION:Råd/tips om planlegging som treffer alle elever og/eller inkluderende praksis. Rett i Canvas eller vedlegg. Publiseres anonymisert.
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST tema 4: «Mitt råd eller tips» (avsluttende oppgave)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST tema 4: «Mitt råd eller tips» (avsluttende oppgave)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20261106-fristskriftligendelig@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T084000Z
+SUMMARY:KRØ100 – FRIST individuelt skriftlig arbeidskrav – endelig innlevering
+DESCRIPTION:Maks 1800 ord\, Calibri 11\, linjeavstand 1\,5\, APA 7\, egen KI-erklæring. Canvas-oppgave «endeleg innlevering».
+DTSTART;TZID=Europe/Oslo:20261106T235900
+DTEND;TZID=Europe/Oslo:20261106T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST individuelt skriftlig arbeidskrav – endelig innlevering
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – FRIST individuelt skriftlig arbeidskrav – endelig innlevering
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-KRO100-20261123-gruppeeksamenvindu@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T084000Z
+SUMMARY:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
+DESCRIPTION:Digital gruppeeksamen\, bestått/ikke bestått. Eksamenstid settes innenfor 23.–27.11\; gruppedeling og dag kommer (kan ønske dager). Alle arbeidskrav må være godkjent.
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE510-20260903-fristmodule4note100@playful-naiad-32224f.netlify.app
+DTSTAMP:20260901T120000Z
+SUMMARY:MARE510 – FRIST Module 4: Individual Note (100 ord) i diskusjonen (obligatorisk)
+DESCRIPTION:Gruppediskusjon (M4 IP Discussion Groups) → eget innlegg 100 ord om sosiokulturelle perspektiver\, profesjon og kontekst innen kl. 16 Oslo. Svar på minst ett innlegg innen søn 6.9 kl. 16.
+DTSTART;TZID=Europe/Oslo:20260903T160000
+DTEND;TZID=Europe/Oslo:20260903T160000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – FRIST Module 4: Individual Note (100 ord) i diskusjonen (obligatorisk)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE510 – FRIST Module 4: Individual Note (100 ord) i diskusjonen (obligatorisk)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIK-1005-20260915-eksamengjennomfrtogbestt@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T084000Z
+SUMMARY:MIK-1005 – Eksamen gjennomført og bestått – emnet fullført
+DESCRIPTION:Flervalgseksamen (2 timer) i Canvas tatt og bestått 15.9.2026\, første dag i vindu 1. MIK-1005 er fullført (2\,5 stp).
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1005 – Eksamen gjennomført og bestått
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-UTA130-20261019-eksamen5dagersskriftlig@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T091500Z
+SUMMARY:UTA130 – Eksamen: 5-dagers skriftlig hjemmeeksamen (19.–23.10)
+DESCRIPTION:Eksamensperiode 19.–23.10.2026. 1500 ord (±10 %)\, bestått/ikke bestått.
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261024
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UTA130 – Eksamen: 5-dagers skriftlig hjemmeeksamen (19.–23.10)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UTA130 – Eksamen: 5-dagers skriftlig hjemmeeksamen (19.–23.10)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SEL110-20261116-eksamen5dagershjemmeek@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T091500Z
+SUMMARY:SEL110 – Eksamen: 5-dagers hjemmeeksamen (16.–20.11)
+DESCRIPTION:Eksamensperiode 16.–20.11.2026. 1500 ord\, bestått/ikke bestått.
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEL110 – Eksamen: 5-dagers hjemmeeksamen (16.–20.11)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SEL110 – Eksamen: 5-dagers hjemmeeksamen (16.–20.11)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1051-20261117-eksamenmuntligeksamenper@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T100000Z
+SUMMARY:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
+DESCRIPTION:Eksamensperiode 17.–20.11.2026\, WISEflow. Eksakt tid kommer (Studentweb\, med forbehold).
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1048-20261124-eksamenmuntligeksamenper@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T100000Z
+SUMMARY:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
+DESCRIPTION:Eksamensperiode 24.–27.11.2026\, WISEflow. Eksakt tid kommer (Studentweb\, med forbehold).
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261128
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1050-20261201-eksamenindividuellmuntli@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T100000Z
+SUMMARY:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
+DESCRIPTION:Eksamensperiode 1.–4.12.2026\, WISEflow\, digitalt. Eksakt tid kommer (Studentweb\, med forbehold).
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-FAF100-20261218-eksameninnleveringsfrist@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T103000Z
+SUMMARY:FAF100 – Eksamen: innleveringsfrist mappe (18.12)
+DESCRIPTION:Innleveringsfrist eksamen (Canvas-kalender/TimeEdit 13.00–14.00). Eksakt klokkeslett bekreftes i WISEflow/Canvas.
+DTSTART;TZID=Europe/Oslo:20261218T130000
+DTEND;TZID=Europe/Oslo:20261218T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – Eksamen: innleveringsfrist mappe
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAF100 – Eksamen: innleveringsfrist mappe
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-SPM120-20261207-eksamen4timershjemmeeksa@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T104000Z
+SUMMARY:SPM120 – Eksamen: 4-timers hjemmeeksamen (man 7.12 kl. 10–14)
+DESCRIPTION:Four hour exam\, mandag 7.12.2026 kl. 10.00–14.00 norsk tid.
+DTSTART;TZID=Europe/Oslo:20261207T100000
+DTEND;TZID=Europe/Oslo:20261207T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM120 – Eksamen: 4-timers hjemmeeksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SPM120 – Eksamen: 4-timers hjemmeeksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MIK-1025-20260915-eksamenflervalgicanvasvi@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T105000Z
+SUMMARY:MIK-1025 – FULLFØRT 18.9: eksamen bestått (vindu 1)
+DESCRIPTION:Valgt vindu 1. Flervalg i Canvas\, bestått/ikke bestått. Reserve: 16.10–15.11\, 16.11–15.12.
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20261016
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1025 – Eksamen: flervalg i Canvas – vindu 1 (15.9–15.10\, valgt)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIK-1025 – Eksamen: flervalg i Canvas – vindu 1 (15.9–15.10\, valgt)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-ITF00424-20261019-eksamenfleksibeleksamenv@playful-naiad-32224f.netlify.app
+DTSTAMP:20260915T105000Z
+SUMMARY:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
+DESCRIPTION:Valgt 19.10 (alternativer 4.11 og 23.11). Eksamensform/klokkeslett fra Canvas.
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261013-mare520zoomktmodul1kursi@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – Zoom-økt modul 1: Kursintro og rehabilitering (Hanne & Mike)
+DESCRIPTION:Se forhåndsinnspilte forelesninger og les tildelt litteratur før økten.
+DTSTART;TZID=Europe/Oslo:20261013T130000
+DTEND;TZID=Europe/Oslo:20261013T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – Zoom-økt modul 1: Kursintro og rehabilitering (Hanne & Mike)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261016-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 1: eget innlegg (250–300 ord)
+DESCRIPTION:Rehabiliteringstjenester i eget land. Obligatorisk (1 av 5 diskusjoner).
+DTSTART;TZID=Europe/Oslo:20261016T120000
+DTEND;TZID=Europe/Oslo:20261016T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 1: eget innlegg (250–300 ord)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 1: eget innlegg (250–300 ord)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261018-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 1: svar til medstudent
+DESCRIPTION:Ca. 50 ord\, sammenlign mellom land. Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261018T235900
+DTEND;TZID=Europe/Oslo:20261018T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 1: svar til medstudent
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 1: svar til medstudent
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261023-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 2: eget innlegg
+DESCRIPTION:Syn på funksjonshemming. Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261023T120000
+DTEND;TZID=Europe/Oslo:20261023T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 2: eget innlegg
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 2: eget innlegg
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261025-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 2: svar til medstudent
+DESCRIPTION:Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261025T235900
+DTEND;TZID=Europe/Oslo:20261025T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 2: svar til medstudent
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 2: svar til medstudent
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261027-mare520obligatoriskmuntl@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – OBLIGATORISK muntlig casepresentasjon i grupper
+DESCRIPTION:Gruppe 5 med veileder Yaya Balla. Maks 12 min presentasjon + 8 min feedback. Arbeidskrav 1.
+DTSTART;TZID=Europe/Oslo:20261027T130000
+DTEND;TZID=Europe/Oslo:20261027T153000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – OBLIGATORISK muntlig casepresentasjon i grupper
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – OBLIGATORISK muntlig casepresentasjon i grupper
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261106-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 4: eget innlegg
+DESCRIPTION:Globale perspektiver. Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261106T120000
+DTEND;TZID=Europe/Oslo:20261106T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 4: eget innlegg
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 4: eget innlegg
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261108-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 4: svar til medstudent
+DESCRIPTION:Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261108T235900
+DTEND;TZID=Europe/Oslo:20261108T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 4: svar til medstudent
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 4: svar til medstudent
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261110-mare520zoomktmodul5measu@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – Zoom-økt modul 5: Measurement (Mike) + midtveisevaluering
+DESCRIPTION:Økt kl. 13–15; midtveisevaluering kl. 15–16. Les Team Application-dokumentet først.
+DTSTART;TZID=Europe/Oslo:20261110T130000
+DTEND;TZID=Europe/Oslo:20261110T160000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – Zoom-økt modul 5: Measurement (Mike) + midtveisevaluering
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261120-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 6: eget innlegg
+DESCRIPTION:Obligatorisk. NB: modulsiden sier 20.11\, tidslinjen 27.11 – sjekk i Canvas.
+DTSTART;TZID=Europe/Oslo:20261120T120000
+DTEND;TZID=Europe/Oslo:20261120T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 6: eget innlegg
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 6: eget innlegg
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261122-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 6: svar til medstudent
+DESCRIPTION:Obligatorisk (med samme dato-forbehold).
+DTSTART;TZID=Europe/Oslo:20261122T235900
+DTEND;TZID=Europe/Oslo:20261122T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 6: svar til medstudent
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 6: svar til medstudent
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261123-mare520zoomktmodul7reabl@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – Zoom-økt modul 7: Reablement (Hanne) – MANDAG
+DESCRIPTION:Flyttet fra 24.11.
+DTSTART;TZID=Europe/Oslo:20261123T130000
+DTEND;TZID=Europe/Oslo:20261123T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – Zoom-økt modul 7: Reablement (Hanne) – MANDAG
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261204-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 8: eget innlegg
+DESCRIPTION:Obligatorisk. NB: modulsiden har skrivefeil; tidslinjen sier 5.12 – 4.12 lagt til grunn.
+DTSTART;TZID=Europe/Oslo:20261204T120000
+DTEND;TZID=Europe/Oslo:20261204T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 8: eget innlegg
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 8: eget innlegg
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261206-mare520fristdiskusjonmod@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST diskusjon modul 8: svar til medstudent
+DESCRIPTION:Obligatorisk.
+DTSTART;TZID=Europe/Oslo:20261206T235900
+DTEND;TZID=Europe/Oslo:20261206T235900
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 8: svar til medstudent
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST diskusjon modul 8: svar til medstudent
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261208-mare520zoomktmodul9oppsu@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – Zoom-økt modul 9: Oppsummering (Mike & Hanne)
+DESCRIPTION:
+DTSTART;TZID=Europe/Oslo:20261208T130000
+DTEND;TZID=Europe/Oslo:20261208T150000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – Zoom-økt modul 9: Oppsummering (Mike & Hanne)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MARE520-20261210-mare520fristskriftligcas@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T120000Z
+SUMMARY:MARE520 – FRIST: skriftlig case 3000 ord ±10 % (arbeidskrav 2)
+DESCRIPTION:Canvas Assignments. Muntlig eksamen bygger på denne. Alle arbeidskrav godkjent innen 10.12.
+DTSTART;TZID=Europe/Oslo:20261210T120000
+DTEND;TZID=Europe/Oslo:20261210T120000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST: skriftlig case 3000 ord ±10 % (arbeidskrav 2)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MARE520 – FRIST: skriftlig case 3000 ord ±10 % (arbeidskrav 2)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-MASTER-20261120-eksameninnleveringmaster@playful-naiad-32224f.netlify.app
+DTSTAMP:20261009T150000Z
+SUMMARY:MASTER – Innlevering masteroppgave idrettsvitenskap (USN)
+DESCRIPTION:Dato fra Åsmund 9.10. Klokkeslett ikke oppgitt – sjekk WISEflow/Studentweb.
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MASTER – Innlevering masteroppgave
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MASTER – Innlevering masteroppgave
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
