@@ -1759,55 +1759,6 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:utd-THP112-20261101-eksamenapnertematrekkes@playful-naiad-32224f.netlify.app
-DTSTAMP:20260815T070000Z
-SUMMARY:THP112 – Eksamen åpner: del 1 (flervalg) · tema del 2 trekkes kl. 08
-DESCRIPTION:Del 1 (90 min flervalg i Canvas\, 80 % krav\, ett forsøk) kan tas fra 1.11. Tema for videopresentasjonen kunngjøres i Canvas kl. 08.00. Krever begge arbeidskrav bestått.
-DTSTART;TZID=Europe/Oslo:20261101T080000
-DTEND;TZID=Europe/Oslo:20261101T090000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:THP112 – Eksamen åpner: del 1 (flervalg) · tema del 2 trekkes kl. 08
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:utd-THP112-20261201-fristvideopresentasjon@playful-naiad-32224f.netlify.app
-DTSTAMP:20260815T070000Z
-SUMMARY:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
-DESCRIPTION:Video 5–7 min av trukket tema\, bestått/ikke bestått. Kun ETT forsøk og ÉN opplasting. Alle 9 kriterier må oppfylles.
-DTSTART;TZID=Europe/Oslo:20261201T140000
-DTEND;TZID=Europe/Oslo:20261201T140000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:THP112 – FRIST eksamen del 2: videopresentasjon (WISEflow)
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:utd-THP112-20261201-fristflervalgseksamen@playful-naiad-32224f.netlify.app
-DTSTAMP:20260815T070000Z
-SUMMARY:THP112 – FRIST eksamen del 1: flervalg (Canvas)
-DESCRIPTION:90 min\, individuell\, 80 % riktig for bestått\, kun ett forsøk. Åpen 1.11 → 1.12 kl. 23.59.
-DTSTART;TZID=Europe/Oslo:20261201T235900
-DTEND;TZID=Europe/Oslo:20261201T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:THP112 – FRIST eksamen del 1: flervalg (Canvas)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:THP112 – FRIST eksamen del 1: flervalg (Canvas)
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:utd-FAF100-20260830-fristselftapemodul1@playful-naiad-32224f.netlify.app
 DTSTAMP:20260815T135300Z
 SUMMARY:FAF100 – FRIST self-tape «Hvorfor inkluderende kroppsøving?»
@@ -2221,24 +2172,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MIK-1025 – Eksamen: flervalg i Canvas – vindu 1 (15.9–15.10\, valgt)
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:utd-ITF00424-20261019-eksamenfleksibeleksamenv@playful-naiad-32224f.netlify.app
-DTSTAMP:20260915T105000Z
-SUMMARY:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
-DESCRIPTION:Valgt 19.10 (alternativer 4.11 og 23.11). Eksamensform/klokkeslett fra Canvas.
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ITF00424 – Eksamen: fleksibel eksamen – valgt dato 19.10
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
