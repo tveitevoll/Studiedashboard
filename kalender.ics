@@ -1985,18 +1985,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:utd-KRO100-20261123-gruppeeksamenvindu@playful-naiad-32224f.netlify.app
 DTSTAMP:20260901T084000Z
-SUMMARY:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
-DESCRIPTION:Digital gruppeeksamen\, bestått/ikke bestått. Eksamenstid settes innenfor 23.–27.11\; gruppedeling og dag kommer (kan ønske dager). Alle arbeidskrav må være godkjent.
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261128
+SUMMARY:KRØ100 – Eksamen: digital muntlig gruppeeksamen (gruppe på fire)
+DESCRIPTION:Ons 25.11 kl. 14.05-14.50 (45 min)\, gruppe på fire\, to av 15 trekktema\, to sensorer. Bestått/ikke bestått. Lenke i Canvas. Alle arbeidskrav må være godkjent.
+DTSTART;TZID=Europe/Oslo:20261125T140500
+DTEND;TZID=Europe/Oslo:20261125T145000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
+DESCRIPTION:KRØ100 – Eksamen: digital muntlig gruppeeksamen
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:KRØ100 – Eksamen: gruppeeksamen (digital samtale) – innenfor 23.–27.11 (dato ikke fastsatt)
+DESCRIPTION:KRØ100 – Eksamen: digital muntlig gruppeeksamen
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
