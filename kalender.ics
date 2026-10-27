@@ -1091,18 +1091,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:utd-MOH7001-20261126-individuell7dagershjemme@playful-naiad-32224f.netlify.app
 DTSTAMP:20260804T120000Z
-SUMMARY:MOH7001 – Individuell hjemmeeksamen: uttak 19.11 kl. 09\, innlevering 25.11 kl. 14 (WISEflow)
-DESCRIPTION:Teller 70 %. Karakter A–F. Digital presentasjon av eksamensoppgaven samme dag som utlevering. Rettet 15.9 etter Studentweb (med forbehold om endring).
-DTSTART;TZID=Europe/Oslo:20261119T090000
-DTEND;TZID=Europe/Oslo:20261125T140000
+SUMMARY:MOH7001 – Hjemmeeksamen 7 dager: fleksibel start 1.–11.12\, senest levert 17.12
+DESCRIPTION:Teller 70 %. Start når du vil 1.–11.12 i WISEflow\; frist 1 uke etter at du åpner oppgaven\, senest 17.12. Lever på dagtid en hverdag.
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261218
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MOH7001 – Individuell 7-dagers hjemmeeksamen
+DESCRIPTION:MOH7001 – Hjemmeeksamen åpner 1.12 (fleksibel start)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MOH7001 – Individuell 7-dagers hjemmeeksamen
+DESCRIPTION:MOH7001 – Hjemmeeksamen åpner 1.12 (fleksibel start)
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT

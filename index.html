@@ -384,7 +384,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '26. oktober 2026 (v72)',
+  oppdatert: '27. oktober 2026 (v73)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -516,7 +516,7 @@ const DATA = {
     { start:'2026-12-18', tid:'kl. 14.00', koder:['FHA851'], emne:'FHA851', tittel:'Frist: innlevering eksamensmappe (Wiseflow)', type:'eksamen', eks:true, status:'bekreftet', notat:'Mappevurdering (bestått/ikke bestått): de seks reviderte arbeidsoppdragene + faglig refleksjonstekst 500 ord ±10 % (APA7) om KBP i egen arbeidshverdag. KRAV: AO1–4 må være levert innen 26.11 for å kunne levere eksamen. Egen mal publiseres; mappa åpner senest 1 uke før.' },
     // MOH7001 (Nord) – vurdering, bekreftet fra emnebeskrivelse 1.8.2026
     { start:'2026-11-09', tid:'kl. 14.00', koder:['MOH7001'], emne:'MOH7001', tittel:'Frist: mappeinnlevering (2 individuelle oppgaver)', type:'frist', status:'bekreftet', notat:'Teller 30 %. To individuelle innleveringer levert samlet i WISEflow. Karakter A–F. Bekreftet i Studentweb 15.9.' },
-    { start:'2026-11-19', slutt:'2026-11-25', tid:'19.11 kl. 09 → 25.11 kl. 14', koder:['MOH7001'], emne:'MOH7001', tittel:'Individuell hjemmeeksamen: uttak 19.11 kl. 09, innlevering 25.11 kl. 14 (WISEflow)', type:'eksamen', status:'bekreftet', notat:'Teller 70 %. Karakter A–F. Digital presentasjon av eksamensoppgaven samme dag som utlevering. RETTET 15.9 etter Studentweb (var 26.11–2.12 fra emnebeskrivelsen); Studentweb: «eksamensdato er satt med forbehold om endring inntil videre».' },
+    { start:'2026-12-01', slutt:'2026-12-17', tid:'fleksibel start 1.–11.12, levering 1 uke etter start (senest 17.12)', koder:['MOH7001'], emne:'MOH7001', tittel:'Hjemmeeksamen (7 dager, fleksibel start 1.–11.12, siste innlevering 17.12, WISEflow)', type:'eksamen', status:'bekreftet', notat:'Teller 70 %. Karakter A–F. E-post fra emneansvarlig 27.10: tidligere dato var 11.–17.12; nå kan du starte når du vil i perioden 1.–11.12, og fristen er 1 uke etter at du åpner oppgaven i WISEflow (eksamensperioden starter idet du åpner den). 17.12 er absolutt siste innleveringsdag. Oppgaven ligger ute fra 1.12, men ikke åpne den før du skal starte. Planlegg innlevering på dagtid en hverdag (ingen hjelp ved problemer kveld/helg). Det kan bli ulike oppgaver for ulike starttidspunkt. NB: e-posten sier at start 1.12 gir levering 6.12; sjekk fristen i WISEflow når du starter.' },
     { start:'2026-08-31', koder:['MOH7001'], emne:'MOH7001', tittel:'Modul 1.0 åpner: Nasjonale kostholdsråd og verktøy (studiestart uke 36)', type:'info', status:'bekreftet', notat:'Canvas åpent frå 13.7; introduksjonsmodul i august. Modulene tas i rekkefølge.' },
     { start:'2026-09-07', koder:['MOH7001'], emne:'MOH7001', tittel:'Modul 2.0 åpner: Ernæring og kosthold i ulike grupper (uke 37)', type:'info', status:'bekreft', notat:'Forutsatt at modul 1.0 er merket ferdig.' },
     { start:'2026-09-21', koder:['MOH7001'], emne:'MOH7001', tittel:'Modul 3.0 åpner: Energi og energigivende næringsstoffer (uke 39, tentativt)', type:'info', status:'bekreft', notat:'Tentativ publiseringsuke oppgitt i emnebeskrivelsen.' },
@@ -620,7 +620,7 @@ const DATA = {
       url:'https://www.nord.no/studier/emner/idr1050' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Nord', kode:'MOH7001', navn:'Ernæring 1', stp:15,
       form:'Heldigitalt og asynkront i Canvas (læringssti), masternivå. Fem moduler i fast rekkefølge: 1.0 Nasjonale kostholdsråd og verktøy · 2.0 Ernæring og kosthold i ulike grupper · 3.0 Energi og energigivende næringsstoffer · 4.0 Bærekraftig matproduksjon, kosthold og forbruk · 5.0 Matvaregrupper, matvarekunnskap og matvarekvalitet. Modul 1.0 åpner uke 36 (31.8), 2.0 uke 37, deretter tentativt uke 39, 41 og 44. Canvas-rommet åpent fra 13.7 med introduksjonsmodul i august. To frivillige nettsamlinger: 10.9 kl. 09–13 og 22.10 kl. 09–12.',
-      vurdering:'Mappe (30 %): to individuelle innleveringer levert samlet, frist 9.11 kl. 14. Individuell hjemmeeksamen (70 %): uttak 19.11 kl. 09, innlevering 25.11 kl. 14 i WISEflow (Studentweb 15.9, med forbehold om endring), med digital presentasjon av oppgaven samme dag som utlevering. Begge må være bestått. Karakter A–F.', krav:'Modulene tas i fastsatt rekkefølge (modul 1.0 må være merket ferdig før 2.0 osv.). Emneansvarlig: Kari Tande-Nilsen (kari.tande-nilsen@nord.no, tlf. 75 51 71 78).', viktig:false,
+      vurdering:'Mappe (30 %): to individuelle innleveringer levert samlet, frist 9.11 kl. 14. Individuell hjemmeeksamen (70 %) over 7 dager i WISEflow med fleksibel start 1.–11.12; levering 1 uke etter at du åpner oppgaven, senest 17.12 (e-post fra emneansvarlig 27.10). Begge må være bestått. Karakter A–F.', krav:'Modulene tas i fastsatt rekkefølge (modul 1.0 må være merket ferdig før 2.0 osv.). Emneansvarlig: Kari Tande-Nilsen (kari.tande-nilsen@nord.no, tlf. 75 51 71 78).', viktig:false,
       url:'https://www.nord.no/studier/emner/moh7001' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Volda', kode:'IKF108', navn:'Ernæring og helse', stp:15,
       form:'Heldigitalt og asynkront: tre moduler publiseres i Canvas uke 34–43 (Grunnleggande ernæringslære, Helse og ernæring, Ernæring og kosthald i ulike grupper). Hovedpensum: Hjartåker (2026) + artikkelsamling i Canvas.', vurdering:'24-timers hjemmeeksamen 23.11 kl. 10 – 24.11 kl. 10 (uke 48), maks 2500 ord, Inspera.', krav:'Tre arbeidskrav i rekkefølge (flersvar 13.9, skriftleg oppgåve 1500 ord 11.10, flersvar 25.10) – forrige må være levert før neste, alle godkjent før eksamen.', viktig:false,
@@ -1328,7 +1328,7 @@ const AK = {
   'IDR1051': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: periode 17.–20.11 (WISEflow; eksakt tid kommer)'],
   'IDR1048': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: periode 24.–27.11 (WISEflow; eksakt tid kommer)'],
   'IDR1050': ['Arbeidskrav: fullført læringssti inkl. quiz (godkjent/ikke godkjent)','Individuell muntlig eksamen, inntil 30 min, digitalt: periode 1.–4.12 (WISEflow; eksakt tid kommer)'],
-  'MOH7001': ['Mappeinnlevering 1','Mappeinnlevering 2','Hjemmeeksamen 19.–25.11 (70 %)'],
+  'MOH7001': ['Mappeinnlevering 1','Mappeinnlevering 2','Hjemmeeksamen 7 dager, fleksibel start 1.–11.12, senest levert 17.12 (70 %)'],
   'IKF108': ['Flersvarsoppgave modul 1 – frist 13.9 kl. 23.59','24-timers hjemmeeksamen 23.–24.11 (2500 ord, Inspera)','Skriftleg oppgåve 1500 ord – frist 11.10 kl. 23.59','Flersvarsoppgave modul 3 – frist 25.10 kl. 23.59'],
   'FAF100': ['Temakrav 1','Temakrav 2','Temakrav 3','Temakrav 4','Temakrav 5','Temakrav 6','Temakrav 7','Temakrav 8','Mappevurdering – innleveringsfrist eksamen 18.12 (kl. 13–14, TimeEdit)'],
   'KRØ101': ['Arbeidskrav 1: drøfte faglig problemstilling m/medstudenter, dokumentert på Canvas','Arbeidskrav 2: innleveringsoppgave (frist 21.10)','Medstudentvurdering av to medstudenters oppgaver','48-timers hjemmeeksamen 2.–4.12 (bestått/ikke bestått)'],
