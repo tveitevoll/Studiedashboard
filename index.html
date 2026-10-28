@@ -442,7 +442,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v82)',
+  oppdatert: '28. oktober 2026 (v83)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1929,7 +1929,7 @@ function byggEksKalender(){
    Visninger: liste per måned, kalender, per institusjon. Filtre: eksamensform og institusjon.
    «Ferdig» = evSetFerdig (synkes). «Skjul» = EKSHID-<evKey> i samme synklager. UI-valg lagres lokalt. */
 const EKS_FORMER = { muntlig:'Muntlig', hjemme:'Hjemmeeksamen', innlevering:'Innlevering/mappe', flervalg:'Flervalg' };
-const EKS_KAR = { 'MARE510':'A-F','MARE520':'A-F','ERN851':'A-F','PED323':'A-F','MOH7001':'A-F','FHA851':'Bestått/ikke bestått','KRØ100':'Bestått/ikke bestått','SEL110':'Bestått/ikke bestått','UTA130':'Bestått/ikke bestått','MIK-1017':'Bestått/ikke bestått','MIK-1025':'Bestått/ikke bestått','MIK-1005':'Bestått/ikke bestått' };
+const EKS_KAR = { 'MARE510':'A-F','MARE520':'A-F','ERN851':'A-F','PED323':'A-F','MOH7001':'A-F','FHA851':'Bestått/ikke bestått','KRØ100':'Bestått/ikke bestått','SEL110':'Bestått/ikke bestått','UTA130':'Bestått/ikke bestått','MIK-1017':'Bestått/ikke bestått','MIK-1025':'Bestått/ikke bestått','MIK-1005':'Bestått/ikke bestått','IDR1048':'A-F','IDR1050':'A-F','IDR1051':'A-F','IKF108':'A-F','SPESPED101':'A-F','SPM105':'A-F','SPM120':'A-F','MASTER':'A-F','FAF100':'Bestått/ikke bestått','KRØ101':'Bestått/ikke bestått','MSH-SH4100':'Bestått/ikke bestått' };
 let EKSUI = (function(){ try{ return Object.assign({ view:'liste', form:[], uni:[], visFerdig:false, visPassert:true, visSkjult:false, detaljer:false }, JSON.parse(localStorage.getItem('dash-eks-ui') || '{}')); }catch(e){ return { view:'liste', form:[], uni:[], visFerdig:false, visPassert:true, visSkjult:false, detaljer:false }; } })();
 function eksUiLagre(){ try{ localStorage.setItem('dash-eks-ui', JSON.stringify(EKSUI)); }catch(e){} }
 function eksForm(e){
