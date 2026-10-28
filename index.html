@@ -317,6 +317,14 @@
   .ekal-mangler{font-size:11px;color:var(--dus);margin:0 2px 18px;font-style:italic;line-height:1.4}
 /* v74 Eksamensoversikt */
 #eks-ov{display:grid;gap:14px}
+.eo-stp{background:#FFFDF9;border:1px solid #D8CCB6;border-radius:10px;padding:10px 12px;margin:8px 0}
+.eo-stp-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;font-size:13px;color:#463F33}
+.eo-stp-bar{height:10px;background:#EFE7D9;border-radius:6px;overflow:hidden;margin:7px 0 9px}
+.eo-stp-bar i{display:block;height:100%;background:#6E7558}
+.eo-stp-grid{display:flex;flex-wrap:wrap;gap:6px}
+.eo-stp-c{font-size:12px;padding:3px 9px;border-radius:12px;background:#EFE7D9;color:#463F33;border:1px solid #D8CCB6;white-space:nowrap}
+.eo-stp-c.ok{background:#E4E6D8;border-color:#AEB892;color:#4F5540;font-weight:700}
+.eo-stp-c.ok::before{content:'✓ '}
 .eo-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
 .eo-kpi{background:#EFE7D9;border-radius:10px;padding:10px 12px}
 .eo-kpi b{display:block;font-size:22px;color:#463F33;font-variant-numeric:tabular-nums}
@@ -434,7 +442,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v81)',
+  oppdatert: '28. oktober 2026 (v82)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1954,6 +1962,7 @@ function eksKort(e, i){
     '<div class="eo-dato"><b>' + s.getDate() + '</b><span>' + MND[s.getMonth()].slice(0,3) + (e.slutt ? ' →' : '') + '</span></div>' +
     '<div class="eo-body"><div class="eo-top"><span class="eo-kode">' + esc(e.koder.join('/')) + '</span><span class="eo-pill eo-p-' + f + '">' + EKS_FORMER[f] + '</span>' +
     '<span class="eo-pill eo-p-kar">' + esc(EKS_KAR[e.koder[0]] || 'skala ikke sjekket') + '</span>' +
+    (emne ? '<span class="eo-pill eo-p-kar">' + String(emne.stp).replace('.', ',') + ' stp</span>' : '') +
     (soon ? '<span class="eo-pill eo-p-snart">' + (n === 0 ? 'i dag' : 'om ' + n + ' d') + '</span>' : '') + '</div>' +
     '<div class="eo-tit">' + esc(e.tittel) + '</div>' +
     '<div class="eo-meta">' + esc(emne ? emne.navn : '') + ' · ' + esc(eksUni(e)) + ' · ' + eksDato(e) + (e.tid ? ' · ' + esc(tidVisning(e)) : '') + '</div>' +
@@ -1995,6 +2004,21 @@ function eksInst(rows, idx){
     return '<div class="eo-irow' + (eksErFerdig(e) ? ' eo-done' : '') + '"><input type="checkbox" id="eo-idone-' + i + '" data-eo-done="' + i + '"' + (eksErFerdig(e) ? ' checked' : '') + (eksFullfortEmne(e) ? ' disabled' : '') + ' aria-label="Ferdig ' + esc(e.koder.join('/')) + '"><span class="eo-d">' + eksDato(e) + '</span><span><b>' + esc(e.koder.join('/')) + '</b> ' + esc(e.tittel) + (e.tid ? ' <i>' + esc(tidVisning(e)) + '</i>' : '') + '</span></div>';
   }).join('') + '</section>').join('') + '</div>';
 }
+function emneFerdigStp(x, alle){
+  if (emneStatus(x) === 2) return true;
+  const ev = alle.filter(e => e.koder.includes(x.kode));
+  return ev.length > 0 && ev.every(eksErFerdig);
+}
+function eksStpPanel(alle){
+  const em = DATA.EMNER.map(x => ({ x, ok: emneFerdigStp(x, alle) }));
+  const tot = em.reduce((a, o) => a + o.x.stp, 0), ferdig = em.filter(o => o.ok).reduce((a, o) => a + o.x.stp, 0);
+  const f = v => String(v).replace('.', ',');
+  const pst = tot ? Math.round(ferdig / tot * 100) : 0;
+  const sortert = em.slice().sort((a, b) => (b.ok - a.ok) || (b.x.stp - a.x.stp));
+  return { ferdig, tot, html: '<div class="eo-stp"><div class="eo-stp-top"><b>Studiepoeng dette semesteret</b><span>' + f(ferdig) + ' av ' + f(tot) + ' stp fullført (' + pst + ' %) · ' + f(tot - ferdig) + ' stp igjen' + (em.some(o => o.x.kode === 'MASTER' && !o.ok) ? ' (herav masteroppgaven 60 stp)' : '') + '</span></div>' +
+    '<div class="eo-stp-bar"><i style="width:' + pst + '%"></i></div><div class="eo-stp-grid">' +
+    sortert.map(o => '<span class="eo-stp-c' + (o.ok ? ' ok' : '') + '" title="' + esc(o.x.navn) + '">' + esc(o.x.kode) + ' · ' + f(o.x.stp) + ' stp</span>').join('') + '</div></div>' };
+}
 function byggEksOversikt(){
   const c = document.getElementById('eks-ov'); if (!c) return;
   const alle = eksAlle(), idx = new Map(alle.map((e, i) => [e, i]));
@@ -2003,10 +2027,11 @@ function byggEksOversikt(){
   const unis = [...new Set(alle.map(eksUni))].filter(Boolean);
   const chip = (attr, val, on, txt) => '<button class="chip' + (on ? ' aktiv-pass' : '') + '" ' + attr + '="' + val + '">' + txt + '</button>';
   const rows = alle.filter(eksSynlig);
-  let h = '<div class="eo-kpis"><div class="eo-kpi"><b>' + alle.length + '</b><span>eksamener og innleveringer</span></div>' +
+  const SP = eksStpPanel(alle);
+  let h = '<div class="eo-kpis"><div class="eo-kpi"><b>' + String(SP.ferdig).replace('.', ',') + ' / ' + String(SP.tot).replace('.', ',') + '</b><span>stp fullført</span></div><div class="eo-kpi"><b>' + alle.length + '</b><span>eksamener og innleveringer</span></div>' +
     '<div class="eo-kpi"><b>' + (alle.length - rest.length) + '</b><span>ferdige</span></div>' +
     '<div class="eo-kpi"><b>' + rest.filter(e => eksForm(e) === 'muntlig').length + '</b><span>muntlige igjen</span></div>' +
-    '<div class="eo-kpi"><b>' + (neste ? eksDagerTil(neste) + ' d' : '–') + '</b><span>' + (neste ? 'til ' + esc(neste.koder.join('/')) + ' (' + eksDato(neste) + ')' : 'ingen gjenstår') + '</span></div></div>' +
+    '<div class="eo-kpi"><b>' + (neste ? eksDagerTil(neste) + ' d' : '–') + '</b><span>' + (neste ? 'til ' + esc(neste.koder.join('/')) + ' (' + eksDato(neste) + ')' : 'ingen gjenstår') + '</span></div></div>' + SP.html +
     '<div class="eo-bar">' +
     '<div class="eo-row"><span class="eo-lbl">Visning</span>' + chip('data-eo-view','liste',EKSUI.view==='liste','Liste') + chip('data-eo-view','kal',EKSUI.view==='kal','Kalender') + chip('data-eo-view','inst',EKSUI.view==='inst','Per institusjon') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Tidssone</span>' + chip('data-eo-tz','UAE',TZ_SONE==='UAE','UAE-tid') + chip('data-eo-tz','NO',TZ_SONE==='NO','Norsk tid') + '</div>' +
