@@ -434,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v80)',
+  oppdatert: '28. oktober 2026 (v81)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1944,7 +1944,6 @@ function eksSynlig(e){
   if (EKSUI.uni.length && !EKSUI.uni.includes(eksUni(e))) return false;
   if (EKSUI.visFerdig ? !eksErFerdig(e) : eksErFerdig(e)) return false;  /* v75: «Ferdige» viser BARE ferdige */
   if (eksErSkjult(e) && !EKSUI.visSkjult) return false;
-  if (!EKSUI.visFerdig && !EKSUI.visPassert && erPassert(e)) return false;  /* v80: «Ferdige» viser alle ferdige, også passerte */
   return true;
 }
 function eksKort(e, i){
@@ -2015,7 +2014,6 @@ function byggEksOversikt(){
     '<div class="eo-row"><span class="eo-lbl">Institusjon</span>' + unis.map(u => chip('data-eo-uni',u,EKSUI.uni.includes(u),esc(u))).join('') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Vis</span>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Ferdige</label>' +
-    '<label class="eo-tog"><input type="checkbox" id="eo-t-passert" data-eo-tog="visPassert"' + (EKSUI.visPassert ? ' checked' : '') + '> Passerte datoer</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-skjult" data-eo-tog="visSkjult"' + (EKSUI.visSkjult ? ' checked' : '') + '> Skjulte</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-det" data-eo-tog="detaljer"' + (EKSUI.detaljer ? ' checked' : '') + '> Alle detaljer</label>' +
     '<button class="eo-btn" data-eo-reset="1">Nullstill filtre</button></div></div>';
