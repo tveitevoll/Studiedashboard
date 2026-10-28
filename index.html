@@ -330,7 +330,7 @@
 .eo-mnd{display:grid;gap:8px}
 .eo-mnd h3,.eo-cal h3{font-size:15px;margin:8px 0 2px;color:#8A7862;text-transform:uppercase;letter-spacing:.06em}
 .eo-kort{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;background:#FFFDF9;border:1px solid #D8CCB6;border-left:5px solid var(--eoc,#D8CCB6);border-radius:10px;padding:11px}
-.eo-done{opacity:.55}.eo-kort.eo-done .eo-tit{text-decoration:line-through}
+.eo-kort.eo-done{background:#E4E6D8;border-color:#AEB892;border-left-color:#6E7558}.eo-kort.eo-done .eo-dato{background:#D3D8C0}.eo-kort.eo-done .eo-tit::after{content:' ✓ ferdig';color:#6E7558;font-weight:700}
 .eo-dato{min-width:58px;text-align:center;background:#EFE7D9;border-radius:8px;padding:5px 4px}
 .eo-dato b{display:block;font-size:19px;color:#463F33;line-height:1.1}.eo-dato span{font-size:12px;color:#8A7862}
 .eo-body{min-width:0;display:grid;gap:3px}
@@ -356,13 +356,13 @@
 .eo-out{background:transparent;border-color:transparent}.eo-idag{outline:2px solid #A5674B}
 .eo-n{font-size:11px;color:#8A7862}
 .eo-ev{font-size:11px;font-weight:700;border-radius:4px;padding:1px 4px;color:#fff;background:var(--eoc);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
-.eo-cont{opacity:.5}.eo-evdone{opacity:.35;text-decoration:line-through}
+.eo-cont{opacity:.5}.eo-ev.eo-evdone{background:#6E7558}
 .eo-inst{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
 .eo-instbox{background:#FFFDF9;border:1px solid #D8CCB6;border-radius:12px;padding:11px;display:grid;gap:6px;align-content:start;min-width:0}
 .eo-instbox h3{margin:0;font-size:16px;color:#463F33}
 .eo-irow{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;border-top:1px solid #D8CCB6;padding-top:6px}
 .eo-irow .eo-d{min-width:72px;color:#8A7862}.eo-irow i{color:#8A7862;font-style:normal}
-.eo-irow.eo-done span{text-decoration:line-through}
+.eo-irow.eo-done{background:#E4E6D8;border-radius:6px;padding:6px 4px 4px}
 @media (max-width:560px){.eo-kort{grid-template-columns:auto 1fr}.eo-acts{grid-column:1/-1;flex-direction:row;justify-content:flex-end}.eo-day{min-height:46px}.eo-ev{font-size:10px}}
 
 </style>
@@ -434,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v74)',
+  oppdatert: '28. oktober 2026 (v75)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1941,7 +1941,7 @@ function eksAlle(){ return hendelser.filter(erEks); }
 function eksSynlig(e){
   if (EKSUI.form.length && !EKSUI.form.includes(eksForm(e))) return false;
   if (EKSUI.uni.length && !EKSUI.uni.includes(eksUni(e))) return false;
-  if (eksErFerdig(e) && !EKSUI.visFerdig) return false;
+  if (EKSUI.visFerdig ? !eksErFerdig(e) : eksErFerdig(e)) return false;  /* v75: «Ferdige» viser BARE ferdige */
   if (eksErSkjult(e) && !EKSUI.visSkjult) return false;
   if (!EKSUI.visPassert && erPassert(e)) return false;
   return true;
@@ -2013,7 +2013,7 @@ function byggEksOversikt(){
     '<div class="eo-row"><span class="eo-lbl">Eksamensform</span>' + Object.entries(EKS_FORMER).map(([k,v]) => chip('data-eo-form',k,EKSUI.form.includes(k),v + ' (' + alle.filter(e => eksForm(e) === k).length + ')')).join('') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Institusjon</span>' + unis.map(u => chip('data-eo-uni',u,EKSUI.uni.includes(u),esc(u))).join('') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Vis</span>' +
-    '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Ferdige</label>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Bare ferdige</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-passert" data-eo-tog="visPassert"' + (EKSUI.visPassert ? ' checked' : '') + '> Passerte datoer</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-skjult" data-eo-tog="visSkjult"' + (EKSUI.visSkjult ? ' checked' : '') + '> Skjulte</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-det" data-eo-tog="detaljer"' + (EKSUI.detaljer ? ' checked' : '') + '> Alle detaljer</label>' +
