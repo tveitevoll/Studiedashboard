@@ -434,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v76)',
+  oppdatert: '28. oktober 2026 (v77)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1931,7 +1931,7 @@ function eksForm(e){
   return 'innlevering';
 }
 function eksUni(e){ return KODE_TIL_UNI[e.koder[0]] || ''; }
-function eksFullfortEmne(e){ return e.koder.every(k => DATA.EMNER.some(x => x.kode === k && /FULLFØRT/i.test(x.navn))); }
+function eksFullfortEmne(e){ return e.koder.every(k => DATA.EMNER.some(x => x.kode === k && (/FULLFØRT/i.test(x.navn) || emneStatus(x) === 2))); }  /* v77: emnestatus «Ferdig» på Emner-fanen = eksamen ferdig */
 function eksErFerdig(e){ return evFerdig(e) || eksFullfortEmne(e); }
 function eksErSkjult(e){ return !!akState()['EKSHID-' + evKey(e)]; }
 function eksSettSkjult(e, on){ const s = akState(), k = 'EKSHID-' + evKey(e); if (on) s[k] = 1; else delete s[k]; akLagre(s); akPush(); oppdater(); }
