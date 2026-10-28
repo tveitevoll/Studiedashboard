@@ -315,6 +315,56 @@
   .ekal-l.ok{color:var(--dus);text-decoration:line-through}
   .ekal-dt{flex:none;display:inline-block;min-width:74px;font-weight:700;color:var(--rust)}
   .ekal-mangler{font-size:11px;color:var(--dus);margin:0 2px 18px;font-style:italic;line-height:1.4}
+/* v74 Eksamensoversikt */
+#eks-ov{display:grid;gap:14px}
+.eo-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.eo-kpi{background:#EFE7D9;border-radius:10px;padding:10px 12px}
+.eo-kpi b{display:block;font-size:22px;color:#463F33;font-variant-numeric:tabular-nums}
+.eo-kpi span{font-size:12.5px;color:#8A7862}
+.eo-bar{display:grid;gap:8px;background:#FFFDF9;border:1px solid #D8CCB6;border-radius:12px;padding:10px 12px}
+.eo-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.eo-lbl{font-size:11.5px;font-weight:700;color:#8A7862;text-transform:uppercase;letter-spacing:.06em;min-width:96px}
+.eo-tog{display:inline-flex;gap:5px;align-items:center;font-size:13.5px;margin-right:10px;cursor:pointer}
+.eo-tog input{accent-color:#6E7558;width:16px;height:16px}
+.eo-btn{font:600 12.5px inherit;font-family:inherit;border:1px solid #D8CCB6;background:#F7F3EC;color:#3A352C;padding:4px 9px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.eo-mnd{display:grid;gap:8px}
+.eo-mnd h3,.eo-cal h3{font-size:15px;margin:8px 0 2px;color:#8A7862;text-transform:uppercase;letter-spacing:.06em}
+.eo-kort{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;background:#FFFDF9;border:1px solid #D8CCB6;border-left:5px solid var(--eoc,#D8CCB6);border-radius:10px;padding:11px}
+.eo-done{opacity:.55}.eo-kort.eo-done .eo-tit{text-decoration:line-through}
+.eo-dato{min-width:58px;text-align:center;background:#EFE7D9;border-radius:8px;padding:5px 4px}
+.eo-dato b{display:block;font-size:19px;color:#463F33;line-height:1.1}.eo-dato span{font-size:12px;color:#8A7862}
+.eo-body{min-width:0;display:grid;gap:3px}
+.eo-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.eo-kode{font-weight:700;color:#463F33}
+.eo-pill{font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:999px}
+.eo-muntlig{--eoc:#6E7558}.eo-p-muntlig{background:#E4E6D8;color:#6E7558}
+.eo-hjemme{--eoc:#A5674B}.eo-p-hjemme{background:#F2E0D6;color:#A5674B}
+.eo-innlevering{--eoc:#9A7A2E}.eo-p-innlevering{background:#F3EAD1;color:#9A7A2E}
+.eo-flervalg{--eoc:#5F6F7A}.eo-p-flervalg{background:#E3E8EB;color:#5F6F7A}
+.eo-p-kar{background:#EFE7D9;color:#3A352C}.eo-p-snart{background:#A5674B;color:#fff}
+.eo-tit{font-weight:600}.eo-meta{font-size:13.5px;color:#8A7862}
+.eo-notat{display:none;font-size:13px;border-top:1px dashed #D8CCB6;padding-top:6px;margin-top:2px}
+.eo-open .eo-notat{display:block}
+.eo-acts{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.eo-chk{display:inline-flex;gap:5px;align-items:center;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.eo-chk input{width:18px;height:18px;accent-color:#6E7558}
+.eo-tom,.eo-mangler,.eo-skjultlinje{color:#8A7862;font-size:13px}
+.eo-cal{display:grid;gap:16px}
+.eo-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
+.eo-dow{font-size:11px;font-weight:700;color:#8A7862;text-align:center}
+.eo-day{min-height:60px;background:#FFFDF9;border:1px solid #D8CCB6;border-radius:6px;padding:3px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.eo-out{background:transparent;border-color:transparent}.eo-idag{outline:2px solid #A5674B}
+.eo-n{font-size:11px;color:#8A7862}
+.eo-ev{font-size:11px;font-weight:700;border-radius:4px;padding:1px 4px;color:#fff;background:var(--eoc);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+.eo-cont{opacity:.5}.eo-evdone{opacity:.35;text-decoration:line-through}
+.eo-inst{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.eo-instbox{background:#FFFDF9;border:1px solid #D8CCB6;border-radius:12px;padding:11px;display:grid;gap:6px;align-content:start;min-width:0}
+.eo-instbox h3{margin:0;font-size:16px;color:#463F33}
+.eo-irow{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;border-top:1px solid #D8CCB6;padding-top:6px}
+.eo-irow .eo-d{min-width:72px;color:#8A7862}.eo-irow i{color:#8A7862;font-style:normal}
+.eo-irow.eo-done span{text-decoration:line-through}
+@media (max-width:560px){.eo-kort{grid-template-columns:auto 1fr}.eo-acts{grid-column:1/-1;flex-direction:row;justify-content:flex-end}.eo-day{min-height:46px}.eo-ev{font-size:10px}}
+
 </style>
 </head>
 <body>
@@ -349,7 +399,7 @@
   <section id="v-uke" class="view"><div id="uke-innhold"></div></section>
   <section id="v-kal" class="view active"><div id="kalender"></div></section>
   <section id="v-oblig" class="view"><div id="oblig-liste"></div></section>
-  <section id="v-eks" class="view"><div id="eks-kal"></div><div id="eks-liste"></div></section>
+  <section id="v-eks" class="view"><div id="eks-ov"></div></section>
   <section id="v-emner" class="view"><div id="emne-liste"></div></section>
   <section id="v-pensum" class="view"><div id="pensum-innhold"></div></section>
   <section id="v-arbeidskrav" class="view"><div id="ak-fig"></div></section>
@@ -384,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '27. oktober 2026 (v73)',
+  oppdatert: '28. oktober 2026 (v74)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -494,7 +544,7 @@ const DATA = {
     { start:'2026-12-11', koder:['ERN851'], emne:'ERN851', tittel:'Hjemmeeksamen: lever fullstendig oppgave (3000 ord ±10 %)', type:'frist', eks:true, status:'bekreftet', notat:'Del 1 av eksamen, basert på eget forskningsprosjekt. Metodedelene vektlegges særlig.' },
     { start:'2026-12-11', koder:['MARE520'], emne:'MARE520', tittel:'Slutt på modulundervisningen (selvstudium 14.–16.12)', type:'info', status:'bekreftet' },
     { start:'2026-12-17', slutt:'2026-12-18', koder:['ERN851'], emne:'ERN851', tittel:'Justerende digital muntlig eksamen', type:'eksamen', status:'bekreftet', notat:'17. eller 18. desember – individuell tid kommer. Karakter A–F settes etter hjemmeeksamen (11.12) + justerende muntlig.' },
-    { start:'2026-12-17', slutt:'2026-12-18', koder:['MARE520'], emne:'MARE520', tittel:'Individuell muntlig eksamen på Zoom (17. eller 18.12)', type:'eksamen', status:'bekreftet', dagtider:{'2026-12-17':'kl. 12.00–17.00','2026-12-18':'kl. 12.00–17.00'}, notat:'Maks 20 min per student (endret fra 30), kl. 12–17, individuelt tidspunkt tildeles, karakter umiddelbart. Basert på skriftlig case levert 10.12 + hele emnet; to eksaminatorer. Notater på papir tillatt, KI ikke tillatt. A–F. Kilde: Canvas 9.10.' },
+    { start:'2026-12-18', tid:'kl. 16.00–16.30', koder:['MARE520'], emne:'MARE520', tittel:'Individuell muntlig eksamen på Zoom (gruppe 2)', type:'eksamen', status:'bekreftet', notat:'Fredag 18.12 kl. 16.00–16.30 norsk tid (gruppe 2, timeplan i Canvas). Presentasjon maks 20 min, 30 min satt av. Logg inn på Zoom 10 min før; du slippes inn på din tid. Muntlig forsvar av den skriftlige casen; karakteren er karakteren for emnet og gis med en gang (A–F). Notater på papir er lov, KI er ikke lov.' },
     // --- Lagt til 1.8.2026 frå HVL Canvas-kalender (TimeEdit) ---
     // FHA851 – digital undervisning (torsdager kl. 09–11)
     { start:'2026-08-13', tid:'kl. 09–10', koder:['FHA851'], emne:'FHA851', tittel:'Digital undervisning: informasjon/oppstart', type:'digital', status:'bekreftet', notat:'Henta frå HVL Canvas (TimeEdit). Underviser: Ingrid Laukeland Djupegot.' },
@@ -515,7 +565,7 @@ const DATA = {
     { start:'2026-08-23', tid:'kl. 23.59', koder:['FHA851'], emne:'FHA851', tittel:'Frist: Arbeidsoppdrag 1 (KBP-modellen + folkehelseutfordring, APA7)', type:'frist', status:'bekreftet', notat:'To deler, leveres som én samlet fil: Del 1 (inntil 400 ord) om 3–5 informasjonskilder plassert i KBP-modellen med styrker/svakheter; Del 2 (200 ord) om en folkehelseutfordring + kunnskapsbasert spørsmål. Anbefalt quiz i modul 1 først. 1 av 6 arbeidsoppdrag.' },
     { start:'2026-12-18', tid:'kl. 14.00', koder:['FHA851'], emne:'FHA851', tittel:'Frist: innlevering eksamensmappe (Wiseflow)', type:'eksamen', eks:true, status:'bekreftet', notat:'Mappevurdering (bestått/ikke bestått): de seks reviderte arbeidsoppdragene + faglig refleksjonstekst 500 ord ±10 % (APA7) om KBP i egen arbeidshverdag. KRAV: AO1–4 må være levert innen 26.11 for å kunne levere eksamen. Egen mal publiseres; mappa åpner senest 1 uke før.' },
     // MOH7001 (Nord) – vurdering, bekreftet fra emnebeskrivelse 1.8.2026
-    { start:'2026-11-09', tid:'kl. 14.00', koder:['MOH7001'], emne:'MOH7001', tittel:'Frist: mappeinnlevering (2 individuelle oppgaver)', type:'frist', status:'bekreftet', notat:'Teller 30 %. To individuelle innleveringer levert samlet i WISEflow. Karakter A–F. Bekreftet i Studentweb 15.9.' },
+    { start:'2026-11-09', tid:'kl. 14.00', koder:['MOH7001'], emne:'MOH7001', tittel:'Frist: mappeinnlevering (2 individuelle oppgaver)', type:'frist', eks:true, status:'bekreftet', notat:'Teller 30 %. To individuelle innleveringer levert samlet i WISEflow. Karakter A–F. Bekreftet i Studentweb 15.9.' },
     { start:'2026-12-01', slutt:'2026-12-17', tid:'fleksibel start 1.–11.12, levering 1 uke etter start (senest 17.12)', koder:['MOH7001'], emne:'MOH7001', tittel:'Hjemmeeksamen (7 dager, fleksibel start 1.–11.12, siste innlevering 17.12, WISEflow)', type:'eksamen', status:'bekreftet', notat:'Teller 70 %. Karakter A–F. E-post fra emneansvarlig 27.10: tidligere dato var 11.–17.12; nå kan du starte når du vil i perioden 1.–11.12, og fristen er 1 uke etter at du åpner oppgaven i WISEflow (eksamensperioden starter idet du åpner den). 17.12 er absolutt siste innleveringsdag. Oppgaven ligger ute fra 1.12, men ikke åpne den før du skal starte. Planlegg innlevering på dagtid en hverdag (ingen hjelp ved problemer kveld/helg). Det kan bli ulike oppgaver for ulike starttidspunkt. NB: e-posten sier at start 1.12 gir levering 6.12; sjekk fristen i WISEflow når du starter.' },
     { start:'2026-08-31', koder:['MOH7001'], emne:'MOH7001', tittel:'Modul 1.0 åpner: Nasjonale kostholdsråd og verktøy (studiestart uke 36)', type:'info', status:'bekreftet', notat:'Canvas åpent frå 13.7; introduksjonsmodul i august. Modulene tas i rekkefølge.' },
     { start:'2026-09-07', koder:['MOH7001'], emne:'MOH7001', tittel:'Modul 2.0 åpner: Ernæring og kosthold i ulike grupper (uke 37)', type:'info', status:'bekreft', notat:'Forutsatt at modul 1.0 er merket ferdig.' },
@@ -560,7 +610,7 @@ const DATA = {
     { start:'2026-12-04', tid:'kl. 12.00', koder:['MARE520'], emne:'MARE520', tittel:'Frist diskusjon modul 8: eget innlegg', type:'frist', oblig:true, status:'bekreft', notat:'Modulsiden har skrivefeil («November 4»); tidslinjen sier lør 5.12. Fredag 4.12 lagt til grunn – sjekk i Canvas.' },
     { start:'2026-12-06', tid:'kl. 23.59', koder:['MARE520'], emne:'MARE520', tittel:'Frist diskusjon modul 8: svar til medstudent', type:'frist', oblig:true, status:'bekreftet' },
     { start:'2026-12-08', tid:'kl. 13.00–15.00', koder:['MARE520'], emne:'MARE520', tittel:'Zoom-økt modul 9: Oppsummering og wrap-up (Mike & Hanne)', type:'digital', status:'bekreftet' },
-    { start:'2026-12-10', tid:'kl. 12.00', koder:['MARE520'], emne:'MARE520', tittel:'FRIST: skriftlig case 3000 ord ±10 % (arbeidskrav 2)', type:'frist', oblig:true, status:'bekreftet', notat:'Leveres i Canvas Assignments (fristen bekreftet i Canvas-oppgaven). Muntlig eksamen 17.–18.12 bygger på denne. Alle arbeidskrav skal være godkjent innen 10.12. APA-stil. To veiledningsøkter à 45 min på utkast før fristen (avtales med Yaya Balla).' },
+    { start:'2026-12-10', tid:'kl. 12.00', koder:['MARE520'], emne:'MARE520', tittel:'FRIST: skriftlig case 3000 ord ±10 % (arbeidskrav 2)', type:'frist', eks:true, oblig:true, status:'bekreftet', notat:'Leveres i Canvas Assignments (fristen bekreftet i Canvas-oppgaven). Muntlig eksamen 17.–18.12 bygger på denne. Alle arbeidskrav skal være godkjent innen 10.12. APA-stil. To veiledningsøkter à 45 min på utkast før fristen (avtales med Yaya Balla).' },
     { start:'2026-11-20', koder:['MASTER'], emne:'MASTER', tittel:'Eksamen: innlevering masteroppgave idrettsvitenskap (USN)', type:'eksamen', oblig:true, status:'bekreftet', notat:'Dato fra Åsmund 9.10. Klokkeslett ikke oppgitt – sjekk WISEflow/Studentweb. Oppmelding må være i orden.' },
     { start:'2027-02-15', koder:['ANTAGNING'], emne:'Sverige (antagning.se)', tittel:'Antagning.se: anmälan till sommarkurser 2027 öppnar', type:'info', status:'bekreftet', notat:'Sommerkurs i Sverige via antagning.se (sommarterminen 2027). Kilde: antagning.se/viktiga datum.' },
     { start:'2027-03-15', koder:['ANTAGNING'], emne:'Sverige (antagning.se)', tittel:'Frist: sista anmälningsdag sommarkurser 2027 (antagning.se)', type:'frist', oblig:true, status:'bekreftet', notat:'Sommerkurs i Sverige via antagning.se (sommarterminen 2027). Kilde: antagning.se/viktiga datum. Frist for å søke sommerkursene på ordinær måte.' },
@@ -875,7 +925,7 @@ const MS_DAG = 86400000;
 const UNIS = ['USN','Nord','Volda','HiØF','HVL','NIH','UiS','UiB','UiT'];
 const KODE_TIL_UNI = {}; DATA.EMNER.forEach(e => KODE_TIL_UNI[e.kode] = e.uni);
 
-let VIEW = 'kal', UNI = 'ALLE', FAG = 'ALLE', VIS_PASSERT = false, TZ_SONE = 'MA';
+let VIEW = 'kal', UNI = 'ALLE', FAG = 'ALLE', VIS_PASSERT = false, TZ_SONE = 'UAE';
 
 /* Bortetid: UAE (Dubai UTC+4) / Marokko (UTC+1). Oslo +2 (sommer) / +1 (fra 25.10.2026) */
 function zoneOffset(iso){
@@ -958,7 +1008,7 @@ function hendelseHTML(e){
 /* ---------- UKESVISNING ---------- */
 let UKE_OFF = 0;
 let UKE_MODE = (function(){ try { return localStorage.getItem('ukeMode') || 'liste'; } catch(e){ return 'liste'; } })();
-let TZ = (function(){ try { return localStorage.getItem('tz') || 'MA'; } catch(e){ return 'MA'; } })();
+let TZ = (function(){ try { const v = localStorage.getItem('tz'); return (!v || v === 'MA') ? 'AE' : v; } catch(e){ return 'AE'; } })();
 function isoD(dt){ return dt.getFullYear() + '-' + String(dt.getMonth()+1).padStart(2,'0') + '-' + String(dt.getDate()).padStart(2,'0'); }
 function ukeMandag(){ const t = idag0(); return new Date(t.getFullYear(), t.getMonth(), t.getDate() - ((t.getDay()+6)%7) + UKE_OFF*7); }
 function uaeOff(dstr){ return dstr >= '2026-10-25' ? 3 : 2; }
@@ -1798,7 +1848,7 @@ function visView(){
   document.querySelectorAll('#tabs .tab').forEach(b => b.classList.toggle('active', b.dataset.view === VIEW));
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.getElementById('v-' + VIEW).classList.add('active');
-  const skjulVerktoy = (VIEW === 'utd' || VIEW === 'plan' || VIEW === 'uke' || VIEW === 'pensum' || VIEW === 'arbeidskrav' || VIEW === 'snarveier');
+  const skjulVerktoy = (VIEW === 'utd' || VIEW === 'plan' || VIEW === 'uke' || VIEW === 'pensum' || VIEW === 'arbeidskrav' || VIEW === 'snarveier' || VIEW === 'eks');
   document.querySelector('.filterblokk').style.display = skjulVerktoy ? 'none' : '';
   document.getElementById('kpi-rad').style.display = skjulVerktoy ? 'none' : '';
   document.getElementById('betaling-linje').style.display = skjulVerktoy ? 'none' : '';
@@ -1866,6 +1916,134 @@ function byggEksKalender(){
   if (mangler.length) html += '<p class="ekal-mangler">Mangler eksamensdato: ' + mangler.map(esc).join(' · ') + '</p>';
   c.innerHTML = html;
 }
+/* ---------- EKSAMENSOVERSIKT (v74, erstatter gammel Eksamener-fane; Åsmund 28.10) ----------
+   Visninger: liste per måned, kalender, per institusjon. Filtre: eksamensform og institusjon.
+   «Ferdig» = evSetFerdig (synkes). «Skjul» = EKSHID-<evKey> i samme synklager. UI-valg lagres lokalt. */
+const EKS_FORMER = { muntlig:'Muntlig', hjemme:'Hjemmeeksamen', innlevering:'Innlevering/mappe', flervalg:'Flervalg' };
+const EKS_KAR = { 'MARE510':'A-F','MARE520':'A-F','ERN851':'A-F','PED323':'A-F','MOH7001':'A-F','FHA851':'Bestått/ikke bestått','KRØ100':'Bestått/ikke bestått','SEL110':'Bestått/ikke bestått','UTA130':'Bestått/ikke bestått','MIK-1017':'Bestått/ikke bestått','MIK-1025':'Bestått/ikke bestått','MIK-1005':'Bestått/ikke bestått' };
+let EKSUI = (function(){ try{ return Object.assign({ view:'liste', form:[], uni:[], visFerdig:false, visPassert:true, visSkjult:false, detaljer:false }, JSON.parse(localStorage.getItem('dash-eks-ui') || '{}')); }catch(e){ return { view:'liste', form:[], uni:[], visFerdig:false, visPassert:true, visSkjult:false, detaljer:false }; } })();
+function eksUiLagre(){ try{ localStorage.setItem('dash-eks-ui', JSON.stringify(EKSUI)); }catch(e){} }
+function eksForm(e){
+  const t = e.tittel;
+  if (/muntlig/i.test(t)) return 'muntlig';
+  if (/flervalg/i.test(t)) return 'flervalg';
+  if (/hjemmeeksamen/i.test(t) && !/lever fullstendig/i.test(t)) return 'hjemme';
+  return 'innlevering';
+}
+function eksUni(e){ return KODE_TIL_UNI[e.koder[0]] || ''; }
+function eksFullfortEmne(e){ return e.koder.every(k => DATA.EMNER.some(x => x.kode === k && /FULLFØRT/i.test(x.navn))); }
+function eksErFerdig(e){ return evFerdig(e) || eksFullfortEmne(e); }
+function eksErSkjult(e){ return !!akState()['EKSHID-' + evKey(e)]; }
+function eksSettSkjult(e, on){ const s = akState(), k = 'EKSHID-' + evKey(e); if (on) s[k] = 1; else delete s[k]; akLagre(s); akPush(); oppdater(); }
+function eksDagerTil(e){ return Math.round((pd(e.start) - idag0()) / MS_DAG); }
+function eksDato(e){ const s = pd(e.start); if (!e.slutt) return UKEDAG[s.getDay()].slice(0,3) + ' ' + s.getDate() + '.' + (s.getMonth()+1); const u = pd(e.slutt); return s.getDate() + '.' + (s.getMonth()+1) + '–' + u.getDate() + '.' + (u.getMonth()+1); }
+function eksAlle(){ return hendelser.filter(erEks); }
+function eksSynlig(e){
+  if (EKSUI.form.length && !EKSUI.form.includes(eksForm(e))) return false;
+  if (EKSUI.uni.length && !EKSUI.uni.includes(eksUni(e))) return false;
+  if (eksErFerdig(e) && !EKSUI.visFerdig) return false;
+  if (eksErSkjult(e) && !EKSUI.visSkjult) return false;
+  if (!EKSUI.visPassert && erPassert(e)) return false;
+  return true;
+}
+function eksKort(e, i){
+  const f = eksForm(e), done = eksErFerdig(e), hid = eksErSkjult(e), n = eksDagerTil(e), s = pd(e.start);
+  const emne = DATA.EMNER.find(x => x.kode === e.koder[0]);
+  const soon = !done && n >= 0 && n <= 14;
+  return '<article class="eo-kort eo-' + f + (done ? ' eo-done' : '') + (EKSUI.detaljer ? ' eo-open' : '') + '" id="eo-k-' + i + '">' +
+    '<div class="eo-dato"><b>' + s.getDate() + '</b><span>' + MND[s.getMonth()].slice(0,3) + (e.slutt ? ' →' : '') + '</span></div>' +
+    '<div class="eo-body"><div class="eo-top"><span class="eo-kode">' + esc(e.koder.join('/')) + '</span><span class="eo-pill eo-p-' + f + '">' + EKS_FORMER[f] + '</span>' +
+    '<span class="eo-pill eo-p-kar">' + esc(EKS_KAR[e.koder[0]] || 'skala ikke sjekket') + '</span>' +
+    (soon ? '<span class="eo-pill eo-p-snart">' + (n === 0 ? 'i dag' : 'om ' + n + ' d') + '</span>' : '') + '</div>' +
+    '<div class="eo-tit">' + esc(e.tittel) + '</div>' +
+    '<div class="eo-meta">' + esc(emne ? emne.navn : '') + ' · ' + esc(eksUni(e)) + ' · ' + eksDato(e) + (e.tid ? ' · ' + esc(tidVisning(e)) : '') + '</div>' +
+    (e.notat ? '<div class="eo-notat">' + esc(e.notat) + '</div>' : '') + '</div>' +
+    '<div class="eo-acts"><label class="eo-chk"><input type="checkbox" id="eo-done-' + i + '" data-eo-done="' + i + '"' + (done ? ' checked' : '') + (eksFullfortEmne(e) ? ' disabled' : '') + '> Ferdig</label>' +
+    '<button class="eo-btn" data-eo-hide="' + i + '">' + (hid ? 'Vis igjen' : 'Skjul') + '</button>' +
+    (e.notat ? '<button class="eo-btn" data-eo-open="' + i + '">Detaljer</button>' : '') + '</div></article>';
+}
+function eksListe(rows, idx){
+  if (!rows.length) return '<p class="eo-tom">Ingen treff med disse filtrene.</p>';
+  const g = {}; rows.forEach(e => { const k = e.start.slice(0,7); (g[k] = g[k] || []).push(e); });
+  return Object.entries(g).map(([k,v]) => '<section class="eo-mnd"><h3>' + MND[+k.slice(5)-1] + ' ' + k.slice(0,4) + '</h3>' + v.map(e => eksKort(e, idx.get(e))).join('') + '</section>').join('');
+}
+function eksKal(rows, idx){
+  if (!rows.length) return '<p class="eo-tom">Ingen treff med disse filtrene.</p>';
+  const end = e => pd(e.slutt || e.start);
+  const mset = new Set(); rows.forEach(e => { let x = pd(e.start); x = new Date(x.getFullYear(), x.getMonth(), 1); while (x <= end(e)){ mset.add(x.getFullYear() * 12 + x.getMonth()); x = new Date(x.getFullYear(), x.getMonth() + 1, 1); } });
+  const idag = idag0().getTime();
+  return '<div class="eo-cal">' + [...mset].sort((a,b) => a - b).map(mk => {
+    const y = Math.floor(mk / 12), m = mk % 12, first = new Date(y, m, 1), off = (first.getDay() + 6) % 7, nd = new Date(y, m + 1, 0).getDate();
+    let h = '<section><h3>' + MND[m] + ' ' + y + '</h3><div class="eo-grid">' + ['ma','ti','on','to','fr','lø','sø'].map(x => '<div class="eo-dow">' + x + '</div>').join('');
+    for (let i = 0; i < off; i++) h += '<div class="eo-day eo-out"></div>';
+    for (let d = 1; d <= nd; d++){
+      const dt = new Date(y, m, d), t = dt.getTime();
+      const evs = rows.filter(e => t >= pd(e.start).getTime() && t <= end(e).getTime());
+      h += '<div class="eo-day' + (t === idag ? ' eo-idag' : '') + '"><span class="eo-n">' + d + '</span>' + evs.map(e => {
+        const first = t === pd(e.start).getTime(), last = !!e.slutt && t === end(e).getTime();
+        return '<span class="eo-ev eo-' + eksForm(e) + (!first && !last ? ' eo-cont' : '') + (eksErFerdig(e) ? ' eo-evdone' : '') + '" data-eo-jump="' + idx.get(e) + '" title="' + esc(e.koder.join('/') + ': ' + e.tittel + (e.tid ? ' · ' + tidVisning(e) : '')) + '">' + esc(e.koder.join('/')) + (last ? ' ◂' : (first && e.slutt ? ' ▸' : '')) + '</span>';
+      }).join('') + '</div>';
+    }
+    return h + '</div></section>';
+  }).join('') + '</div>';
+}
+function eksInst(rows, idx){
+  if (!rows.length) return '<p class="eo-tom">Ingen treff med disse filtrene.</p>';
+  const unis = [...new Set(rows.map(eksUni))];
+  return '<div class="eo-inst">' + unis.map(u => '<section class="eo-instbox"><h3>' + esc(u) + '</h3>' + rows.filter(e => eksUni(e) === u).map(e => {
+    const i = idx.get(e);
+    return '<div class="eo-irow' + (eksErFerdig(e) ? ' eo-done' : '') + '"><input type="checkbox" id="eo-idone-' + i + '" data-eo-done="' + i + '"' + (eksErFerdig(e) ? ' checked' : '') + (eksFullfortEmne(e) ? ' disabled' : '') + ' aria-label="Ferdig ' + esc(e.koder.join('/')) + '"><span class="eo-d">' + eksDato(e) + '</span><span><b>' + esc(e.koder.join('/')) + '</b> ' + esc(e.tittel) + (e.tid ? ' <i>' + esc(tidVisning(e)) + '</i>' : '') + '</span></div>';
+  }).join('') + '</section>').join('') + '</div>';
+}
+function byggEksOversikt(){
+  const c = document.getElementById('eks-ov'); if (!c) return;
+  const alle = eksAlle(), idx = new Map(alle.map((e, i) => [e, i]));
+  const rest = alle.filter(e => !eksErFerdig(e));
+  const neste = rest.filter(e => !erPassert(e))[0];
+  const unis = [...new Set(alle.map(eksUni))].filter(Boolean);
+  const chip = (attr, val, on, txt) => '<button class="chip' + (on ? ' aktiv-pass' : '') + '" ' + attr + '="' + val + '">' + txt + '</button>';
+  const rows = alle.filter(eksSynlig);
+  let h = '<div class="eo-kpis"><div class="eo-kpi"><b>' + alle.length + '</b><span>eksamener og innleveringer</span></div>' +
+    '<div class="eo-kpi"><b>' + (alle.length - rest.length) + '</b><span>ferdige</span></div>' +
+    '<div class="eo-kpi"><b>' + rest.filter(e => eksForm(e) === 'muntlig').length + '</b><span>muntlige igjen</span></div>' +
+    '<div class="eo-kpi"><b>' + (neste ? eksDagerTil(neste) + ' d' : '–') + '</b><span>' + (neste ? 'til ' + esc(neste.koder.join('/')) + ' (' + eksDato(neste) + ')' : 'ingen gjenstår') + '</span></div></div>' +
+    '<div class="eo-bar">' +
+    '<div class="eo-row"><span class="eo-lbl">Visning</span>' + chip('data-eo-view','liste',EKSUI.view==='liste','Liste') + chip('data-eo-view','kal',EKSUI.view==='kal','Kalender') + chip('data-eo-view','inst',EKSUI.view==='inst','Per institusjon') + '</div>' +
+    '<div class="eo-row"><span class="eo-lbl">Tidssone</span>' + chip('data-eo-tz','UAE',TZ_SONE==='UAE','UAE-tid') + chip('data-eo-tz','NO',TZ_SONE==='NO','Norsk tid') + '</div>' +
+    '<div class="eo-row"><span class="eo-lbl">Eksamensform</span>' + Object.entries(EKS_FORMER).map(([k,v]) => chip('data-eo-form',k,EKSUI.form.includes(k),v + ' (' + alle.filter(e => eksForm(e) === k).length + ')')).join('') + '</div>' +
+    '<div class="eo-row"><span class="eo-lbl">Institusjon</span>' + unis.map(u => chip('data-eo-uni',u,EKSUI.uni.includes(u),esc(u))).join('') + '</div>' +
+    '<div class="eo-row"><span class="eo-lbl">Vis</span>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Ferdige</label>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-passert" data-eo-tog="visPassert"' + (EKSUI.visPassert ? ' checked' : '') + '> Passerte datoer</label>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-skjult" data-eo-tog="visSkjult"' + (EKSUI.visSkjult ? ' checked' : '') + '> Skjulte</label>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-det" data-eo-tog="detaljer"' + (EKSUI.detaljer ? ' checked' : '') + '> Alle detaljer</label>' +
+    '<button class="eo-btn" data-eo-reset="1">Nullstill filtre</button></div></div>';
+  h += EKSUI.view === 'kal' ? eksKal(rows, idx) : (EKSUI.view === 'inst' ? eksInst(rows, idx) : eksListe(rows, idx));
+  const skjulte = alle.filter(eksErSkjult);
+  if (skjulte.length && !EKSUI.visSkjult) h += '<p class="eo-skjultlinje">Skjult: ' + skjulte.map(e => '<button class="eo-btn" data-eo-hide="' + idx.get(e) + '">' + esc(e.koder.join('/')) + ' · ' + eksDato(e) + ' ✕</button>').join(' ') + '</p>';
+  const har = new Set(alle.flatMap(e => e.koder)), EKAL_UNNTAK = ['MSH-SH4100'];
+  const mangler = DATA.EMNER.filter(e => !har.has(e.kode) && !/FULLFØRT/i.test(e.navn) && !EKAL_UNNTAK.includes(e.kode)).map(e => e.kode);
+  if (mangler.length) h += '<p class="eo-mangler">Mangler eksamensdato: ' + mangler.map(esc).join(' · ') + '</p>';
+  c.innerHTML = h;
+  c.onclick = ev => {
+    const t = ev.target.closest('button,[data-eo-jump]'); if (!t) return;
+    const d = t.dataset;
+    if (d.eoView){ EKSUI.view = d.eoView; eksUiLagre(); byggEksOversikt(); }
+    else if (d.eoTz){ TZ_SONE = d.eoTz; TZ = (TZ_SONE === 'UAE' ? 'AE' : TZ_SONE); try{ localStorage.setItem('tz', TZ); }catch(e){} oppdater(); }
+    else if (d.eoForm){ const k = d.eoForm; EKSUI.form = EKSUI.form.includes(k) ? EKSUI.form.filter(x => x !== k) : [...EKSUI.form, k]; eksUiLagre(); byggEksOversikt(); }
+    else if (d.eoUni){ const k = d.eoUni; EKSUI.uni = EKSUI.uni.includes(k) ? EKSUI.uni.filter(x => x !== k) : [...EKSUI.uni, k]; eksUiLagre(); byggEksOversikt(); }
+    else if (d.eoReset){ EKSUI.form = []; EKSUI.uni = []; EKSUI.visFerdig = false; EKSUI.visPassert = true; EKSUI.visSkjult = false; eksUiLagre(); byggEksOversikt(); }
+    else if (d.eoHide !== undefined){ const e = alle[+d.eoHide]; eksSettSkjult(e, !eksErSkjult(e)); }
+    else if (d.eoOpen !== undefined){ const k = document.getElementById('eo-k-' + d.eoOpen); if (k) k.classList.toggle('eo-open'); }
+    else if (d.eoJump !== undefined){ EKSUI.view = 'liste'; eksUiLagre(); byggEksOversikt(); const k = document.getElementById('eo-k-' + d.eoJump); if (k){ k.classList.add('eo-open'); k.scrollIntoView({ block:'center' }); } }
+  };
+  c.onchange = ev => {
+    const t = ev.target, d = t.dataset;
+    if (d.eoDone !== undefined){ const e = alle[+d.eoDone]; evSetFerdig(e, t.checked); }
+    else if (d.eoTog){ EKSUI[d.eoTog] = t.checked; eksUiLagre(); byggEksOversikt(); }
+  };
+}
+
 function oppdater(){
   byggChips();
   byggKpi();
@@ -1873,8 +2051,7 @@ function oppdater(){
   byggUke();
   byggKalender();
   byggListe('oblig-liste', erOblig, false);
-  byggEksKalender();
-  byggListe('eks-liste', erEks, true);
+  byggEksOversikt();
   byggEmner();
   byggPensum();
   byggArbeidskrav();

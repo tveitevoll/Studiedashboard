@@ -928,18 +928,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:utd-MARE520-20261217-individuellmuntligeksame@playful-naiad-32224f.netlify.app
 DTSTAMP:20260804T120000Z
-SUMMARY:MARE520 – Individuell muntlig eksamen på Zoom (17. eller 18.12\, kl. 12–17)
-DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261219
+SUMMARY:MARE520 – Individuell muntlig eksamen på Zoom (gruppe 2)
+DESCRIPTION:Fre 18.12 kl. 16.00-16.30 norsk tid. Logg inn på Zoom 10 min før. Maks 20 min presentasjon. Karakter gis med en gang.
+DTSTART;TZID=Europe/Oslo:20261218T160000
+DTEND;TZID=Europe/Oslo:20261218T163000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
+DESCRIPTION:MARE520 – Muntlig eksamen 18.12 kl. 16.00 (norsk tid)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Maks 20 min per student\, individuelt tidspunkt tildeles\, karakter umiddelbart. Basert på skriftlig case levert 10.12. Notater på papir tillatt\, KI ikke tillatt. A–F.
+DESCRIPTION:MARE520 – Muntlig eksamen 18.12 kl. 16.00 (norsk tid)
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
