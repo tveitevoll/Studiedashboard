@@ -434,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v75)',
+  oppdatert: '28. oktober 2026 (v76)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -2013,7 +2013,7 @@ function byggEksOversikt(){
     '<div class="eo-row"><span class="eo-lbl">Eksamensform</span>' + Object.entries(EKS_FORMER).map(([k,v]) => chip('data-eo-form',k,EKSUI.form.includes(k),v + ' (' + alle.filter(e => eksForm(e) === k).length + ')')).join('') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Institusjon</span>' + unis.map(u => chip('data-eo-uni',u,EKSUI.uni.includes(u),esc(u))).join('') + '</div>' +
     '<div class="eo-row"><span class="eo-lbl">Vis</span>' +
-    '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Bare ferdige</label>' +
+    '<label class="eo-tog"><input type="checkbox" id="eo-t-ferdig" data-eo-tog="visFerdig"' + (EKSUI.visFerdig ? ' checked' : '') + '> Ferdige</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-passert" data-eo-tog="visPassert"' + (EKSUI.visPassert ? ' checked' : '') + '> Passerte datoer</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-skjult" data-eo-tog="visSkjult"' + (EKSUI.visSkjult ? ' checked' : '') + '> Skjulte</label>' +
     '<label class="eo-tog"><input type="checkbox" id="eo-t-det" data-eo-tog="detaljer"' + (EKSUI.detaljer ? ' checked' : '') + '> Alle detaljer</label>' +
