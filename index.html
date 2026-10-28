@@ -434,7 +434,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '28. oktober 2026 (v79)',
+  oppdatert: '28. oktober 2026 (v80)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -1944,7 +1944,7 @@ function eksSynlig(e){
   if (EKSUI.uni.length && !EKSUI.uni.includes(eksUni(e))) return false;
   if (EKSUI.visFerdig ? !eksErFerdig(e) : eksErFerdig(e)) return false;  /* v75: «Ferdige» viser BARE ferdige */
   if (eksErSkjult(e) && !EKSUI.visSkjult) return false;
-  if (!EKSUI.visPassert && erPassert(e)) return false;
+  if (!EKSUI.visFerdig && !EKSUI.visPassert && erPassert(e)) return false;  /* v80: «Ferdige» viser alle ferdige, også passerte */
   return true;
 }
 function eksKort(e, i){
