@@ -2505,4 +2505,22 @@ DESCRIPTION:ANTAGNING – Antagningsbesked sommarkurser 2027
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:utd-MSH-SH4100-20261127-eksameninnleveringsemeste@playful-naiad-32224f.netlify.app
+DTSTAMP:20261028T113000Z
+SUMMARY:MSH-SH4100 – Eksamen: innlevering av semesteroppgaven
+DESCRIPTION:Fra Utdanning-dashbordet. Dato satt som plassholder (uke 48)\; sjekk eksakt frist i Canvas/WISEflow.
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – innlevering eksamen
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MSH-SH4100 – innlevering eksamen
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
 END:VCALENDAR
