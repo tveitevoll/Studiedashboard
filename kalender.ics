@@ -877,6 +877,24 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:utd-ERN851-20261127-paaminnelselever@playful-naiad-32224f.netlify.app
+DTSTAMP:20261029T120000Z
+SUMMARY:ERN851 – Påminnelse: lever hjemmeeksamen nå (2 uker før fristen 11.12)
+DESCRIPTION:Oppgaven er ferdig skrevet. Lever den i dag\, to uker før fristen 11.12.
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Påminnelse: lever hjemmeeksamen nå (2 uker før fristen 11.12)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ERN851 – Påminnelse: lever hjemmeeksamen nå (2 uker før fristen 11.12)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:utd-ERN851-20261211-hjemmeeksamenleverfullst@playful-naiad-32224f.netlify.app
 DTSTAMP:20260804T120000Z
 SUMMARY:ERN851 – Hjemmeeksamen: lever fullstendig oppgave (3000 ord ±10 %)
