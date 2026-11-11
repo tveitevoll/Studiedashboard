@@ -442,7 +442,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '11. november 2026 (v86)',
+  oppdatert: '11. november 2026 (v87)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -540,11 +540,10 @@ const DATA = {
     { start:'2026-11-11', tid:'kl. 17–19', koder:['PED323'], emne:'PED323', tittel:'Digital samling', type:'digital', oblig:true, status:'bekreftet', notat:'Kl. 17.00 norsk tid.' },
     { start:'2026-12-02', tid:'kl. 17–19', koder:['PED323'], emne:'PED323', tittel:'Digital samling: Om mappeeksamen', type:'digital', oblig:true, status:'bekreftet', notat:'Kl. 17.00 norsk tid.' },
     { start:'2026-11-23', slutt:'2026-11-24', tid:'23.11 kl. 10.00 – 24.11 kl. 10.00', koder:['IKF108'], emne:'IKF108', tittel:'Eksamen: 24-timers hjemmeeksamen', type:'eksamen', status:'bekreftet', notat:'Uke 48. Maks 2500 ord, levering i Inspera. Alle tre arbeidskrav må være godkjent på forhånd. Kilde: semesterplanen (12.8).' },
-    { start:'2026-11-24', koder:['PED323'], emne:'PED323', tittel:'Trekkfrist eksamen (mappe)', type:'frist', status:'bekreftet', notat:'Kilde: UiB emneside.' },
-    { start:'2026-11-24', koder:['PED323'], emne:'PED323', tittel:'Eksamensoppgaven (mappe) kommer i WISEflow', type:'info', status:'bekreftet', notat:'Eksamen legges ut i WISEflow 24.11 (Åsmund 11.11). Innlevering av mappen 8.12 kl. 13.' },
+    { start:'2026-11-24', koder:['PED323'], emne:'PED323', tittel:'Trekkfrist eksamen (mappe)', type:'frist', status:'bekreftet', notat:'Kilde: UiB emneside (Inspera).' },
     { start:'2026-12-15', tid:'kl. 17.00', koder:['MIK-1017'], emne:'MIK-1017', tittel:'Eksamen: flervalg i Canvas – frist 15.12 kl. 17', type:'eksamen', status:'bekreftet', notat:'20 tilfeldig utvalgte spørsmål, 30 min tidsbegrensning, minst 85 % riktig (17 av 20) for bestått. Ubegrensede forsøk fram til fristen. NB: spørsmål som refererer til «Rapporten» betyr MIK-1017-emnet. Alt+Shift+T viser gjenværende tid. Klokkeslett rettet 6.9 fra kl. 14 til kl. 17 (Canvas-eksamenssiden). FULLFØRT: eksamen gjennomført og bestått 7.9.2026 – hele emnet er ferdig. Kilde: Canvas + Åsmund 7.9.' },
     { start:'2026-12-15', koder:['MIK-1025'], emne:'UiT mikro', tittel:'Siste dag i siste eksamensvindu (reserve)', type:'info', status:'bekreftet', notat:'Reservevindu: eksamensvindu 3 (16.11–15.12) stenger. Åsmund har valgt vindu 1 (15.9–15.10). Flervalgseksamen i Canvas, bestått/ikke bestått, ingen kont.' },
-    { start:'2026-12-08', tid:'kl. 13.00', koder:['PED323'], emne:'PED323', tittel:'Innlevering eksamensmappe (WISEflow)', type:'eksamen', status:'bekreftet', notat:'Leveres i WISEflow; eksamen kommer der 24.11. Mappe med 4 tekster – 2 av dem er bearbeidede versjoner av arbeidsoppgave 1 og 2. Begge arbeidsoppgavene MÅ være levert i semesteret for å kunne gå opp til eksamen. Kilde: Canvas-forsiden (11.8).' },
+    { start:'2026-12-08', tid:'kl. 13.00', koder:['PED323'], emne:'PED323', tittel:'Innlevering eksamensmappe', type:'eksamen', status:'bekreftet', notat:'Mappe med 4 tekster – 2 av dem er bearbeidede versjoner av arbeidsoppgave 1 og 2. Begge arbeidsoppgavene MÅ være levert i semesteret for å kunne gå opp til eksamen. Kilde: Canvas-forsiden (11.8).' },
     // NOVEMBER
     { start:'2026-11-09', slutt:'2026-11-11', koder:['MSH-SH4100'], emne:'MSH-SH4100', tittel:'Fysisk samling, campus Drammen', type:'fysisk', status:'bekreftet', notat:'Datoer bekreftet i undervisningsplanen (uke 46, man–ons). Time-for-time-program ikke publisert ennå. Eksamen: uke 48 – dato kommer.' },
     { start:'2026-11-15', koder:['ERN851'], emne:'ERN851', tittel:'Frist OLA3: Analyse og resultat (min. 400 ord)', type:'frist', oblig:true, status:'bekreftet', notat:'Leveres tre dager før samling 3B (Canvas 13.8).' },
@@ -569,7 +568,7 @@ const DATA = {
     { start:'2026-11-03', tid:'kl. 17–20', koder:['SPESPED101'], emne:'SPESPED101', tittel:'Undervisning 10: Spesialpedagogisk tilrettelegging i videregående opplæring', type:'digital', oblig:true, status:'bekreftet', notat:'Tema: Spesialpedagogisk tilrettelegging i videregående opplæring (Ingjerd). Litteratur: Befring & Næss (2025) kap. 23 og 27. Eksamensforberedelser/info om eksamen ca. kl. 19.15–20.00. Uke 46–47: selvstendige eksamensforberedelser. 70 %-deltakelseskravet gjelder.' },
     { start:'2026-11-05', tid:'kl. 09–11', koder:['FHA851'], emne:'FHA851', tittel:'Digital undervisning', type:'digital', status:'bekreftet' },
     { start:'2026-11-22', tid:'kl. 23.59', koder:['FHA851'], emne:'FHA851', tittel:'Frist: Arbeidsoppdrag 6', type:'frist', status:'bekreftet', notat:'Søndag før samling 6 (26.11). Inngår i eksamensmappen.' },
-    { start:'2026-11-24', slutt:'2026-11-27', tid:'24.11 kl. 09.00 → 27.11 kl. 09.00', koder:['SPESPED101'], emne:'SPESPED101', tittel:'Eksamen: 72-timers hjemmeeksamen (ti 24.11 kl. 09 → fre 27.11 kl. 09)', type:'eksamen', status:'bekreftet', notat:'RETTET 15.9 etter semesterplanen (var 25.–27.11). Individuell skriftlig hjemmeeksamen, 72 timer, maks 2000 ord. Karakter A–F, alle hjelpemidler tillatt, to sensorer. «Med forbehold om endringer» iflg. semesterplanen. Arbeidskrav må være godkjent senest 3 uker før (≈ 4.11).' },
+    { start:'2026-11-24', slutt:'2026-11-27', tid:'24.11 kl. 09.00 → 27.11 kl. 09.00', koder:['SPESPED101'], emne:'SPESPED101', tittel:'Eksamen: 72-timers hjemmeeksamen i WISEflow (ti 24.11 kl. 09 → fre 27.11 kl. 09)', type:'eksamen', status:'bekreftet', notat:'Oppgaven kommer i WISEflow 24.11 (Åsmund 11.11). RETTET 15.9 etter semesterplanen (var 25.–27.11). Individuell skriftlig hjemmeeksamen, 72 timer, maks 2000 ord. Karakter A–F, alle hjelpemidler tillatt, to sensorer. «Med forbehold om endringer» iflg. semesterplanen. Arbeidskrav må være godkjent senest 3 uker før (≈ 4.11).' },
     { start:'2026-11-26', tid:'kl. 09–11', koder:['FHA851'], emne:'FHA851', tittel:'Digital undervisning', type:'digital', status:'bekreftet' },
     // FHA851 – arbeidskrav
     { start:'2026-08-23', tid:'kl. 23.59', koder:['FHA851'], emne:'FHA851', tittel:'Frist: Arbeidsoppdrag 1 (KBP-modellen + folkehelseutfordring, APA7)', type:'frist', status:'bekreftet', notat:'To deler, leveres som én samlet fil: Del 1 (inntil 400 ord) om 3–5 informasjonskilder plassert i KBP-modellen med styrker/svakheter; Del 2 (200 ord) om en folkehelseutfordring + kunnskapsbasert spørsmål. Anbefalt quiz i modul 1 først. 1 av 6 arbeidsoppdrag.' },
@@ -644,11 +643,11 @@ const DATA = {
       url:'https://www.usn.no/studier/master-i-samfunn-og-helse/helsefremmende-arbeid/' },
     { kat:'Online med faste direkteaktiviteter', uni:'UiB', kode:'PED323', navn:'Kunnskap og kunnskapsprosessar', stp:15,
       form:'Digitale kveldssamlinger: 26.–27.8, 16.9, 14.10, 11.11 og 2.12 (kl. 18); ellers individuelt arbeid.',
-      vurdering:'Mappeeksamen i WISEflow: eksamen legges ut 24.11, innlevering 8.12 kl. 13 norsk tid (16.00 UAE).', krav:'Obligatorisk deltaking på dei digitale samlingane. To arbeidsoppgaver à 1500 ord med tilbakemelding til medstudent; begge må leveres og inngår i eksamensmappen.', viktig:true,
+      vurdering:'Mappeeksamen – innlevering 8.12 kl. 13.', krav:'Obligatorisk deltaking på dei digitale samlingane. To arbeidsoppgaver à 1500 ord med tilbakemelding til medstudent; begge må leveres og inngår i eksamensmappen.', viktig:true,
       url:'https://www4.uib.no/emner/ped323' },
     { kat:'Online med faste direkteaktiviteter', uni:'HiØF', kode:'SPESPED101', navn:'Grunnleggende innføring i spesialpedagogikk og ideologiske perspektiv', stp:15,
       form:'Digitalt, én synkron kveldsundervisning per uke (tirsdager fra 25.8, 10 økter t.o.m. 3.11; uke 40 = studieuke). Forventet innsats 20 t/uke. Emneansvarlige: Silje Kathinka Erichsen og Line Børtveit.',
-      vurdering:'Individuell skriftlig hjemmeeksamen, 72 timer: tirsdag 24.11 kl. 09.00 til fredag 27.11 kl. 09.00 (uke 48), maks 2000 ord, karakter A–F, to sensorer.', krav:'Min. 70 % dokumentert deltakelse i timeplanlagte aktiviteter + individuell fagtekst 2000 ord ±10 % (frist 7.10). Alt godkjent senest 3 uker før eksamen.', viktig:true,
+      vurdering:'Individuell skriftlig hjemmeeksamen i WISEflow, 72 timer: tirsdag 24.11 kl. 09.00 til fredag 27.11 kl. 09.00 (uke 48), maks 2000 ord, karakter A–F, to sensorer.', krav:'Min. 70 % dokumentert deltakelse i timeplanlagte aktiviteter + individuell fagtekst 2000 ord ±10 % (frist 7.10). Alt godkjent senest 3 uker før eksamen.', viktig:true,
       url:'https://www.hiof.no/studier/emner/lusp/pil/2026/host/spesped101.html' },
     { kat:'Online med faste direkteaktiviteter', uni:'HVL', kode:'ERN851', navn:'Ernæringsforskning', stp:15,
       form:'Heldigitalt. Informasjonsmøte (19.8) + seks Zoom-samlinger i A/B-par, normalt kl. 12–14; de tre B-samlingene (16.9, 14.10, 18.11) er obligatoriske. Tre moduler (Del 1–3) med én OLA per modul. Emneansvarlig: Bodil Bjørndal.',
@@ -1380,8 +1379,8 @@ const AK = {
   'MIK-1005': ['Fullfør modulene i Canvas (fullført 15.9)','Flervalgseksamen i ett av tre vinduer – BESTÅTT 15.9.2026 (vindu 1)'],
   'MIK-1017': ['Fullfør modulene i Canvas (fullført 6.9)','Eksamen: flervalg i Canvas – BESTÅTT 7.9.2026','Arbeidskrav (velg ETT): AK1 Deling av aktivitetsdata eller AK2 Essay (levert)'],
   'MIK-1025': ['Fullfør modulene i Canvas (fullført)','Flervalgseksamen i Canvas – BESTÅTT 18.9.2026 (vindu 1)'],
-  'PED323': ['Oppstartssamling 26.–27.8 kl. 17','Arbeidsoppgave 1 – frist 2.10 kl. 14','Feedback til Catharina Nilsen Undrum – 6.10 kl. 16','Arbeidsoppgave 2 – frist 30.10 kl. 14','Tilbakemelding til medstudent – 3.11 kl. 16','Eksamen ut i WISEflow 24.11','Eksamensmappe – frist 8.12 kl. 13 (WISEflow)'],
-  'SPESPED101': ['Min. 70 % deltakelse (10 tirsdagsøkter 25.8–3.11)','Fagtekst 2000 ord – frist 7.10','72-timers hjemmeeksamen 24.11 kl. 09 → 27.11 kl. 09 (maks 2000 ord)'],
+  'PED323': ['Oppstartssamling 26.–27.8 kl. 17','Arbeidsoppgave 1 – frist 2.10 kl. 14','Feedback til Catharina Nilsen Undrum – 6.10 kl. 16','Arbeidsoppgave 2 – frist 30.10 kl. 14','Tilbakemelding til medstudent – 3.11 kl. 16','Eksamensmappe – frist 8.12 kl. 13'],
+  'SPESPED101': ['Min. 70 % deltakelse (10 tirsdagsøkter 25.8–3.11)','Fagtekst 2000 ord – frist 7.10','72-timers hjemmeeksamen i WISEflow 24.11 kl. 09 → 27.11 kl. 09 (maks 2000 ord)'],
   'ERN851': ['Obligatorisk samling 16.9','Obligatorisk samling 14.10','Obligatorisk samling 18.11','80 % fremmøte på oblig. aktiviteter','Skriftlig oppgave (frist 11.12)','Justerende muntlig eksamen 17./18.12'],
   'KRØ100': ['Avsluttende oppgave i alle fem temaene (quiz 1–3 m/full skår · tema 4 råd/tips frist 1.11 · tema 5 egenvurdering)','Individuelt skriftlig arbeidskrav m/ medstudentvurdering (utkast 16.10 · vurdering 23.10 · endelig 6.11 kl. 23.59)','Digital gruppesamtale i eksamensgruppa om trekktemaene + rapport (én leverer for hele gruppa, før eksamen)','Gruppeeksamen ons 25.11 kl. 14.05–14.50 (digital, 45 min)'],
   'MARE510': ['Digital story (individuell)','Gruppepresentasjon','65 % deltakelse i asynkrone diskusjoner','Porteføljeeksamen (levert 19.10) – RESULTAT: B'],
