@@ -2087,19 +2087,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-IDR1051-20261117-eksamenmuntligeksamenper@playful-naiad-32224f.netlify.app
-DTSTAMP:20260915T100000Z
-SUMMARY:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
-DESCRIPTION:Eksamensperiode 17.–20.11.2026\, WISEflow. Eksakt tid kommer (Studentweb\, med forbehold).
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261121
+DTSTAMP:20261111T070000Z
+SEQUENCE:1
+SUMMARY:IDR1051 – Eksamen: muntlig eksamen (30 min)
+DESCRIPTION:Digital muntlig eksamen\, 13.50–14.20 norsk tid (16.50–17.20 UAE). Tidspunkt fra Olav 11.11.
+DTSTART;TZID=Europe/Oslo:20261118T135000
+DTEND;TZID=Europe/Oslo:20261118T142000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
+DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen (30 min)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen – periode 17.–20.11
+DESCRIPTION:IDR1051 – Eksamen: muntlig eksamen (30 min)
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT

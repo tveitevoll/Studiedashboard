@@ -442,7 +442,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '29. oktober 2026 (v84)',
+  oppdatert: '11. november 2026 (v85)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -598,7 +598,7 @@ const DATA = {
     { start:'2026-09-15', koder:['MIK-1005'], emne:'MIK-1005', tittel:'Eksamen: flervalg i Canvas – gjennomført og bestått, emnet fullført', type:'info', eks:true, status:'bekreftet', notat:'Flervalgseksamen (2 timer) i Canvas tatt og bestått 15.9.2026, første dag i eksamensvindu 1. MIK-1005 er dermed fullført (2,5 stp), som andre emne dette semesteret etter MIK-1017 (7.9). Kilde: Åsmund 15.9.' },
     { start:'2026-10-19', slutt:'2026-10-23', koder:['UTA130'], emne:'UTA130', tittel:'Eksamen: 5-dagers skriftlig hjemmeeksamen (19.–23.10)', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 19.–23. oktober 2026. 1500 ord (±10 %), bestått/ikke bestått. Ingen obligatoriske aktiviteter i emnet. Kilde: UiS-emneinfo via Åsmund 15.9.' },
     { start:'2026-11-16', slutt:'2026-11-20', koder:['SEL110'], emne:'SEL110', tittel:'Eksamen: 5-dagers hjemmeeksamen (16.–20.11)', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 16.–20. november 2026. 1500 ord, bestått/ikke bestått. Samlingene er ikke obligatoriske. Kilde: UiS-emneinfo via Åsmund 15.9.' },
-    { start:'2026-11-17', slutt:'2026-11-20', koder:['IDR1051'], emne:'IDR1051', tittel:'Eksamen: muntlig eksamen – periode 17.–20.11', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 17.–20.11.2026, WISEflow. Eksakt dag/klokkeslett kommer. Studentweb 15.9: «eksamensdato er satt med forbehold om endring inntil videre».' },
+    { start:'2026-11-18', tid:'kl. 13.50–14.20', koder:['IDR1051'], emne:'IDR1051', tittel:'Eksamen: muntlig eksamen (30 min)', type:'eksamen', status:'bekreftet', notat:'Digital muntlig eksamen, onsdag 18.11 kl. 13.50–14.20 norsk tid (16.50–17.20 UAE). Tidspunkt satt av Olav (e-post, videreformidlet av Åsmund 11.11). A–F.' },
     { start:'2026-11-24', slutt:'2026-11-27', koder:['IDR1048'], emne:'IDR1048', tittel:'Eksamen: muntlig eksamen – periode 24.–27.11', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 24.–27.11.2026, WISEflow. Eksakt dag/klokkeslett kommer. Studentweb 15.9: «eksamensdato er satt med forbehold om endring inntil videre».' },
     { start:'2026-12-01', slutt:'2026-12-04', koder:['IDR1050'], emne:'IDR1050', tittel:'Eksamen: individuell muntlig eksamen (inntil 30 min, digitalt) – periode 1.–4.12', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 1.–4.12.2026, WISEflow. Eksakt dag/klokkeslett kommer. Studentweb 15.9: «eksamensdato er satt med forbehold om endring inntil videre».' },
     { start:'2026-12-18', tid:'kl. 13–14', koder:['FAF100'], emne:'FAF100', tittel:'Eksamen: innleveringsfrist mappe (18.12)', type:'eksamen', status:'bekreftet', notat:'«Innleveringsfrist eksamen» (Niels Boysen Feddersen) i FAF100-kalenderen i Canvas, booket via TimeEdit 18.12 kl. 13.00–14.00. Eksakt innleveringsklokkeslett bekreftes i WISEflow/Canvas-oppgaven. Kilde: Canvas-kalender via Åsmund 15.9.' },
@@ -657,9 +657,9 @@ const DATA = {
       form:'Nettbasert, fem tematiske moduler (filmforelesning, tekst, obligatorisk quiz/avslutningsoppgave) gjennomført fleksibelt. Frivillige digitale kollokviegrupper. Emneansvarlig: Petter Erik Leirhaug (Videreutdanning i kroppsøving).',
       vurdering:'Digital muntlig gruppeeksamen onsdag 25.11.2026 kl. 14.05–14.50 (45 min, gruppe på fire, to av 15 trekktema, to sensorer). Bestått/ikke bestått per student.', krav:'Tre arbeidskrav: (1) avsluttende oppgave til hvert av de fem temaene (quiz tema 1–3 med full poengskår, «råd/tips» tema 4 frist 1.11, egenvurdering svømming tema 5); (2) individuelt skriftlig arbeidskrav, maks 1800 ord, APA 7 + KI-erklæring, med medstudentvurdering (utkast 16.10, vurdering 23.10, endelig 6.11 kl. 23.59); (3) digital gruppesamtale i eksamensgruppa om trekktemaene, med rapport (én leverer for gruppa). Alle må godkjennes før eksamen.', viktig:false,
       url:'https://www.nih.no/studier/emner/2026/host/kro100.html' },
-    { kat:'Online med faste direkteaktiviteter', uni:'HVL', kode:'MARE510', navn:'Healthy Ageing: Theoretical Foundation', stp:15,
+    { kat:'Online med faste direkteaktiviteter', uni:'HVL', kode:'MARE510', navn:'Healthy Ageing: Theoretical Foundation – FULLFØRT (B)', stp:15, kar:'B',
       form:'Nettbasert. Synkrone Zoom-økter tirsdager 13–15 CET (Oslo/Bergen), vanligvis annenhver uke, + asynkrone aktiviteter med ukentlige frister. Arbeidsuke man–fre, all tid i CET. Koordinator: Djenana Jalovcic.',
-      vurdering:'Individuell porteføljeeksamen (guided home assignment): fagtekst 3000 ord + refleksjon 500 ord + kunnskapsprodukt, levert som én PDF. Frist 19.10.2026 kl. 14:00. A–F; ved F kan porteføljen forbedres og leveres til ny eksamen.', krav:'Digital story, gruppepresentasjon og 65 % deltakelse i asynkrone diskusjoner (én kan brukes i porteføljen).', viktig:true,
+      vurdering:'Individuell porteføljeeksamen (guided home assignment): fagtekst 3000 ord + refleksjon 500 ord + kunnskapsprodukt, levert som én PDF. Frist 19.10.2026 kl. 14:00. A–F; ved F kan porteføljen forbedres og leveres til ny eksamen. RESULTAT: B.', krav:'Digital story, gruppepresentasjon og 65 % deltakelse i asynkrone diskusjoner (én kan brukes i porteføljen).', viktig:true,
       url:'https://www.hvl.no/en/studies-at-hvl/study-programmes/courses/MARE510' },
     { kat:'Online med faste direkteaktiviteter', uni:'HVL', kode:'MARE520', navn:'Rehabilitation: Theoretical Foundation', stp:15,
       form:'Nettbasert. Synkrone Zoom-økter tirsdager 13–15 CET (Oslo/Bergen), vanligvis annenhver uke, + asynkrone aktiviteter med ukentlige frister. Arbeidsuke man–fre, all tid i CET. Koordinator: Hanne Tuntland.',
@@ -670,7 +670,7 @@ const DATA = {
       vurdering:'5-dagers hjemmeeksamen (1500 ord, bestått/ikke bestått). Eksamensperiode 16.–20.11.2026.', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
       url:'https://www.uis.no/nb/course-id/3351295' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Nord', kode:'IDR1051', navn:'Anatomi og fysiologi', stp:10,
-      form:'Fleksibelt; frivillige ukentlige live-møter.', vurdering:'Muntlig eksamen, eksamensperiode 17.–20.11.2026 (Studentweb 15.9, med forbehold om endring; eksakt tidspunkt kommer).', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
+      form:'Fleksibelt; frivillige ukentlige live-møter.', vurdering:'Digital muntlig eksamen onsdag 18.11.2026 kl. 13.50–14.20 norsk tid (16.50–17.20 UAE), 30 min. A–F.', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
       url:'https://www.nord.no/studier/studieplaner/personlig-trener-1-fleksibel-pt1-kortere-studier-host-2026' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Nord', kode:'IDR1048', navn:'Grunnleggende sport coaching', stp:10,
       form:'Fleksibelt (som PT1); frivillig live-veiledning.', vurdering:'Muntlig eksamen, eksamensperiode 24.–27.11.2026 (Studentweb 15.9, med forbehold om endring; eksakt tidspunkt kommer).', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
@@ -756,7 +756,7 @@ const DATA = {
         note:'Kun metodeemnet forventes dekket med innpass (metode og statistikk fra UiA). HMA-emnene fra våren 2026 holdes utenfor graden.',
         emner:[
           { kode:'MAMET1H', navn:'Philosophy of Science, Ethics and Research Methods', stp:15, naar:'V27', status:'innpass' },
-          { kode:'MARE510', navn:'Healthy Ageing: Theoretical Foundation', stp:15, naar:'H26', status:'paagaar' },
+          { kode:'MARE510', navn:'Healthy Ageing: Theoretical Foundation', stp:15, naar:'H26', status:'fullfort', kar:'B' },
           { kode:'MARE520', navn:'Rehabilitation: Theoretical Foundation', stp:15, naar:'H26', status:'paagaar' },
           { kode:'MARE530', navn:'Leadership in Rehabilitation', stp:15, naar:'V27', status:'plan' },
           { kode:'MARE540', navn:'Active and Assisted Living', stp:10, naar:'H27', status:'plan' },
@@ -852,6 +852,7 @@ const DATA = {
       { k:'HI111N', n:'Norsk og internasjonal oversynshistorie ca. 300–1536', i:'Volda', t:'2026 Vår', s:15, kar:'B', tema:'Samfunn & humaniora' },
       { k:'IKF105', n:'Ernæring og fysisk aktivitet', i:'Volda', t:'2026 Vår', s:15, kar:'A', tema:'Ernæring & mat' },
       // HVL
+      { k:'MARE510', n:'Healthy Ageing: Theoretical Foundation', i:'HVL', t:'2026 Høst', s:15, kar:'B', tema:'Helse & folkehelse' },
       { k:'HMA801', n:'Teoretiske prinsipp for sunn aldring', i:'HVL', t:'2026 Vår', s:2.5, kar:'Bestått', tema:'Helse & folkehelse' },
       { k:'HMA811', n:'Teoretiske perspektiver på velferdsteknologi', i:'HVL', t:'2026 Vår', s:2.5, kar:'Bestått', tema:'Helse & folkehelse' },
       { k:'HMA804', n:'Ledelsesteori innen rehabilitering', i:'HVL', t:'2026 Vår', s:2.5, kar:'Bestått', tema:'Ledelse & organisasjon' },
@@ -1382,10 +1383,10 @@ const AK = {
   'SPESPED101': ['Min. 70 % deltakelse (10 tirsdagsøkter 25.8–3.11)','Fagtekst 2000 ord – frist 7.10','72-timers hjemmeeksamen 24.11 kl. 09 → 27.11 kl. 09 (maks 2000 ord)'],
   'ERN851': ['Obligatorisk samling 16.9','Obligatorisk samling 14.10','Obligatorisk samling 18.11','80 % fremmøte på oblig. aktiviteter','Skriftlig oppgave (frist 11.12)','Justerende muntlig eksamen 17./18.12'],
   'KRØ100': ['Avsluttende oppgave i alle fem temaene (quiz 1–3 m/full skår · tema 4 råd/tips frist 1.11 · tema 5 egenvurdering)','Individuelt skriftlig arbeidskrav m/ medstudentvurdering (utkast 16.10 · vurdering 23.10 · endelig 6.11 kl. 23.59)','Digital gruppesamtale i eksamensgruppa om trekktemaene + rapport (én leverer for hele gruppa, før eksamen)','Gruppeeksamen ons 25.11 kl. 14.05–14.50 (digital, 45 min)'],
-  'MARE510': ['Digital story (individuell)','Gruppepresentasjon','65 % deltakelse i asynkrone diskusjoner','Porteføljeeksamen (frist 19.10)'],
+  'MARE510': ['Digital story (individuell)','Gruppepresentasjon','65 % deltakelse i asynkrone diskusjoner','Porteføljeeksamen (levert 19.10) – RESULTAT: B'],
   'MARE520': ['Muntlig casepresentasjon i gruppe 5 (veileder Yaya Balla) – 27.10 kl. 13.00–15.30 på Zoom','Nettdiskusjoner: innlegg + svar i alle 5 (frister 16./18.10, 23./25.10, 6./8.11, 20./22.11, 4./6.12)','Skriftlig case 3000 ord ±10 % – frist 10.12 kl. 12.00 (Canvas Assignments)','Individuell muntlig eksamen 17.–18.12 kl. 12–17 (maks 20 min, Zoom)'],
   'SEL110': ['Digital oppstartssamling (ikke obligatorisk)','Digital avslutningssamling (ikke obligatorisk)','5-dagers hjemmeeksamen 16.–20.11 (1500 ord)'],
-  'IDR1051': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: periode 17.–20.11 (WISEflow; eksakt tid kommer)'],
+  'IDR1051': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: onsdag 18.11 kl. 13.50–14.20 norsk tid (16.50–17.20 UAE)'],
   'IDR1048': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: periode 24.–27.11 (WISEflow; eksakt tid kommer)'],
   'IDR1050': ['Arbeidskrav: fullført læringssti inkl. quiz (godkjent/ikke godkjent)','Individuell muntlig eksamen, inntil 30 min, digitalt: periode 1.–4.12 (WISEflow; eksakt tid kommer)'],
   'MOH7001': ['Mappeinnlevering 1','Mappeinnlevering 2','Hjemmeeksamen 7 dager, fleksibel start 1.–11.12, senest levert 17.12 (70 %)'],
@@ -1740,7 +1741,7 @@ function byggPlan(){
   // Vår 2026 hentes automatisk fra fullførte resultater, så listene alltid stemmer overens
   const v26 = DATA.UTDANNING.EMNER.filter(e => e.t === '2026 Vår')
     .map(e => ({ kode:e.k, navn:e.n, inst:e.i, stp:e.s, status:'fullfort', kar:e.kar }));
-  const h26 = DATA.EMNER.map(e => ({ kode:e.kode, navn:e.navn, inst:e.uni, stp:e.stp, status:'paagaar' }));
+  const h26 = DATA.EMNER.map(e => { const res = DATA.UTDANNING.EMNER.find(x => x.k === e.kode && x.t === '2026 Høst'); return res ? { kode:e.kode, navn:res.n, inst:e.uni, stp:e.stp, status:'fullfort', kar:res.kar } : { kode:e.kode, navn:e.navn, inst:e.uni, stp:e.stp, status:'paagaar' }; });
   const alleSemestre = [
     { id:'V26', navn:'Vår 2026 – fullført', emner:v26 },
     { id:'H26', navn:'Høst 2026 – pågår', emner:h26 },
