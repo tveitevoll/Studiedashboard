@@ -792,6 +792,14 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:utd-PED323-20261124-eksamenkommeriwiseflow@playful-naiad-32224f.netlify.app
+DTSTAMP:20261111T153000Z
+SUMMARY:PED323 – Eksamensoppgaven (mappe) kommer i WISEflow
+DESCRIPTION:Eksamen legges ut i WISEflow 24.11. Innlevering av mappen 8.12 kl. 13 norsk tid.
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+END:VEVENT
+BEGIN:VEVENT
 UID:utd-PED323-20261124-trekkfristeksamenmappe@playful-naiad-32224f.netlify.app
 DTSTAMP:20260804T120000Z
 SUMMARY:PED323 – Trekkfrist eksamen (mappe)
