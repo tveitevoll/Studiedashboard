@@ -2146,20 +2146,34 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-IDR1050-20261201-eksamenindividuellmuntli@playful-naiad-32224f.netlify.app
-DTSTAMP:20260915T100000Z
-SUMMARY:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
-DESCRIPTION:Eksamensperiode 1.–4.12.2026\, WISEflow\, digitalt. Eksakt tid kommer (Studentweb\, med forbehold).
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261205
+DTSTAMP:20261116T111000Z
+SEQUENCE:1
+SUMMARY:IDR1050 – Eksamen: muntlig eksamen på Teams (30 min)
+DESCRIPTION:Teams\, lenke i Canvas. 13.45–14.15 norsk tid (16.45–17.15 UAE). Sjekk kamera og lyd.
+DTSTART;TZID=Europe/Oslo:20261202T134500
+DTEND;TZID=Europe/Oslo:20261202T141500
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
+DESCRIPTION:IDR1050 – Eksamen: muntlig eksamen på Teams (30 min)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1050 – Eksamen: individuell muntlig eksamen (inntil 30 min) – periode 1.–4.12
+DESCRIPTION:IDR1050 – Eksamen: muntlig eksamen på Teams (30 min)
 TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1050-20261201-trekkoppgave@playful-naiad-32224f.netlify.app
+DTSTAMP:20261116T111000Z
+SUMMARY:IDR1050 – Trekk av eksamensoppgave (eksamen dagen etter)
+DESCRIPTION:Oppgaven trekkes 08.15 norsk tid (11.15 UAE). Eksamen 2.12 kl. 13.45.
+DTSTART;TZID=Europe/Oslo:20261201T081500
+DTEND;TZID=Europe/Oslo:20261201T083000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1050 – Trekk av eksamensoppgave (eksamen dagen etter)
+TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

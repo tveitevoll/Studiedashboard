@@ -442,7 +442,7 @@
 <script>
 /* ============ DATABLOKK – redigeres når nye datoer kommer ============ */
 const DATA = {
-  oppdatert: '16. november 2026 (v89)',
+  oppdatert: '16. november 2026 (v90)',
 
   BETALING: [
     { inst:'NIH', forhand:['betalt'], notat:'' },
@@ -602,7 +602,8 @@ const DATA = {
     { start:'2026-11-18', tid:'kl. 13.50–14.20', koder:['IDR1051'], emne:'IDR1051', tittel:'Eksamen: muntlig eksamen (30 min)', type:'eksamen', status:'bekreftet', notat:'Digital muntlig eksamen, onsdag 18.11 kl. 13.50–14.20 norsk tid (16.50–17.20 UAE). Tidspunkt satt av Olav (e-post, videreformidlet av Åsmund 11.11). A–F.' },
     { start:'2026-11-25', tid:'kl. 08.15', koder:['IDR1048'], emne:'IDR1048', tittel:'Trekk av eksamensoppgave (muntlig eksamen dagen etter)', type:'frist', status:'bekreftet', notat:'Oppgaven trekkes onsdag 25.11 kl. 08.15 norsk tid (11.15 UAE). Eksamen torsdag 26.11 kl. 13.10–13.40.' },
     { start:'2026-11-26', tid:'kl. 13.10–13.40', koder:['IDR1048'], emne:'IDR1048', tittel:'Eksamen: muntlig eksamen på Teams (30 min)', type:'eksamen', status:'bekreftet', notat:'Torsdag 26.11 kl. 13.10–13.40 norsk tid (16.10–16.40 UAE). Teams; lenke publiseres i Canvas. Sjekk kamera og lyd på forhånd. Oppgaven trekkes 25.11 kl. 08.15. Eksamensoppsett fra Olav (Åsmund 16.11). A–F.' },
-    { start:'2026-12-01', slutt:'2026-12-04', koder:['IDR1050'], emne:'IDR1050', tittel:'Eksamen: individuell muntlig eksamen (inntil 30 min, digitalt) – periode 1.–4.12', type:'eksamen', status:'bekreftet', notat:'Eksamensperiode 1.–4.12.2026, WISEflow. Eksakt dag/klokkeslett kommer. Studentweb 15.9: «eksamensdato er satt med forbehold om endring inntil videre».' },
+    { start:'2026-12-01', tid:'kl. 08.15', koder:['IDR1050'], emne:'IDR1050', tittel:'Trekk av eksamensoppgave (muntlig eksamen dagen etter)', type:'frist', status:'bekreftet', notat:'Oppgaven trekkes tirsdag 1.12 kl. 08.15 norsk tid (11.15 UAE). Eksamen onsdag 2.12 kl. 13.45–14.15.' },
+    { start:'2026-12-02', tid:'kl. 13.45–14.15', koder:['IDR1050'], emne:'IDR1050', tittel:'Eksamen: muntlig eksamen på Teams (30 min)', type:'eksamen', status:'bekreftet', notat:'Onsdag 2.12 kl. 13.45–14.15 norsk tid (16.45–17.15 UAE). Teams; lenke publiseres i Canvas. Sjekk kamera og lyd på forhånd. Oppgaven trekkes 1.12 kl. 08.15. Eksamensoppsett fra Olav (Åsmund 16.11). A–F.' },
     { start:'2026-12-18', tid:'kl. 13–14', koder:['FAF100'], emne:'FAF100', tittel:'Eksamen: innleveringsfrist mappe (18.12)', type:'eksamen', status:'bekreftet', notat:'«Innleveringsfrist eksamen» (Niels Boysen Feddersen) i FAF100-kalenderen i Canvas, booket via TimeEdit 18.12 kl. 13.00–14.00. Eksakt innleveringsklokkeslett bekreftes i WISEflow/Canvas-oppgaven. Kilde: Canvas-kalender via Åsmund 15.9.' },
     { start:'2026-12-07', tid:'kl. 10–14', koder:['SPM120'], emne:'SPM120', tittel:'Eksamen: 4-timers hjemmeeksamen (man 7.12 kl. 10–14)', type:'eksamen', status:'bekreftet', notat:'Four hour exam, mandag 7. desember 2026 kl. 10.00–14.00 norsk tid. Kilde: NIH/Canvas via Åsmund 15.9.' },
     { start:'2026-09-15', slutt:'2026-10-15', koder:['MIK-1025'], emne:'MIK-1025', tittel:'Eksamen: flervalg i Canvas – vindu 1 (15.9–15.10, valgt)', type:'eksamen', status:'bekreftet', notat:'FULLFØRT: eksamen gjennomført og bestått 18.9.2026 – alle tre UiT-mikroemnene er ferdige. Åsmund tok eksamen i vindu 1 (15.9–15.10). Flervalgseksamen i Canvas, bestått/ikke bestått, ingen kont. Gjør modulene ferdig først. Reservevinduer: 16.10–15.11 og 16.11–15.12.' },
@@ -678,7 +679,7 @@ const DATA = {
       form:'Fleksibelt (som PT1); frivillig live-veiledning.', vurdering:'Muntlig eksamen på Teams torsdag 26.11.2026 kl. 13.10–13.40 norsk tid (16.10–16.40 UAE), 30 min. Oppgaven trekkes onsdag 25.11 kl. 08.15. Teams-lenke i Canvas. A–F.', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
       url:'https://www.nord.no/studier/studieplaner/personlig-trener-1-fleksibel-pt1-kortere-studier-host-2026' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Nord', kode:'IDR1050', navn:'Styrketrening', stp:10,
-      form:'Nettbasert: ca. 50 % digitale forelesninger med arbeidsoppgaver og tester, 50 % praktiske oppgaver. Emneansvarlig: Olav Melhus Gomo. Lagt til 1.9 (oppmeldt).', vurdering:'Individuell muntlig eksamen, inntil 30 min, digitalt. Eksamensperiode 1.–4.12.2026 (Studentweb 15.9, med forbehold om endring; eksakt tidspunkt kommer).', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
+      form:'Nettbasert: ca. 50 % digitale forelesninger med arbeidsoppgaver og tester, 50 % praktiske oppgaver. Emneansvarlig: Olav Melhus Gomo. Lagt til 1.9 (oppmeldt).', vurdering:'Individuell muntlig eksamen på Teams onsdag 2.12.2026 kl. 13.45–14.15 norsk tid (16.45–17.15 UAE), 30 min. Oppgaven trekkes tirsdag 1.12 kl. 08.15. Teams-lenke i Canvas. A–F.', krav:'Ingen obligatoriske aktiviteter (bekreftet 15.9).', viktig:false,
       url:'https://www.nord.no/studier/emner/idr1050' },
     { kat:'Online uten obligatoriske direkteaktiviteter', uni:'Nord', kode:'MOH7001', navn:'Ernæring 1', stp:15,
       form:'Heldigitalt og asynkront i Canvas (læringssti), masternivå. Fem moduler i fast rekkefølge: 1.0 Nasjonale kostholdsråd og verktøy · 2.0 Ernæring og kosthold i ulike grupper · 3.0 Energi og energigivende næringsstoffer · 4.0 Bærekraftig matproduksjon, kosthold og forbruk · 5.0 Matvaregrupper, matvarekunnskap og matvarekvalitet. Modul 1.0 åpner uke 36 (31.8), 2.0 uke 37, deretter tentativt uke 39, 41 og 44. Canvas-rommet åpent fra 13.7 med introduksjonsmodul i august. To frivillige nettsamlinger: 10.9 kl. 09–13 og 22.10 kl. 09–12.',
@@ -1390,7 +1391,7 @@ const AK = {
   'SEL110': ['Digital oppstartssamling (ikke obligatorisk)','Digital avslutningssamling (ikke obligatorisk)','5-dagers hjemmeeksamen 16.–20.11 (1500 ord)'],
   'IDR1051': ['Arbeidskrav (publiseres i Canvas)','Muntlig eksamen: onsdag 18.11 kl. 13.50–14.20 norsk tid (16.50–17.20 UAE)'],
   'IDR1048': ['Arbeidskrav (publiseres i Canvas)','Trekk av oppgave: ons 25.11 kl. 08.15 norsk tid','Muntlig eksamen på Teams: tor 26.11 kl. 13.10–13.40 norsk tid (16.10–16.40 UAE)'],
-  'IDR1050': ['Arbeidskrav: fullført læringssti inkl. quiz (godkjent/ikke godkjent)','Individuell muntlig eksamen, inntil 30 min, digitalt: periode 1.–4.12 (WISEflow; eksakt tid kommer)'],
+  'IDR1050': ['Arbeidskrav: fullført læringssti inkl. quiz (godkjent/ikke godkjent)','Trekk av oppgave: tir 1.12 kl. 08.15 norsk tid','Muntlig eksamen på Teams: ons 2.12 kl. 13.45–14.15 norsk tid (16.45–17.15 UAE)'],
   'MOH7001': ['Mappeinnlevering 1','Mappeinnlevering 2','Hjemmeeksamen 7 dager, fleksibel start 1.–11.12, senest levert 17.12 (70 %)'],
   'IKF108': ['Flersvarsoppgave modul 1 – frist 13.9 kl. 23.59','24-timers hjemmeeksamen 23.–24.11 (2500 ord, Inspera)','Skriftleg oppgåve 1500 ord – frist 11.10 kl. 23.59','Flersvarsoppgave modul 3 – frist 25.10 kl. 23.59'],
   'FAF100': ['Temakrav 1','Temakrav 2','Temakrav 3','Temakrav 4','Temakrav 5','Temakrav 6','Temakrav 7','Temakrav 8','Mappevurdering – innleveringsfrist eksamen 18.12 (kl. 13–14, TimeEdit)'],
