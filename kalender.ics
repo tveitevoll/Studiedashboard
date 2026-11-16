@@ -2114,20 +2114,34 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-IDR1048-20261124-eksamenmuntligeksamenper@playful-naiad-32224f.netlify.app
-DTSTAMP:20260915T100000Z
-SUMMARY:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
-DESCRIPTION:Eksamensperiode 24.–27.11.2026\, WISEflow. Eksakt tid kommer (Studentweb\, med forbehold).
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261128
+DTSTAMP:20261116T110000Z
+SEQUENCE:1
+SUMMARY:IDR1048 – Eksamen: muntlig eksamen på Teams (30 min)
+DESCRIPTION:Teams\, lenke i Canvas. 13.10–13.40 norsk tid (16.10–16.40 UAE). Sjekk kamera og lyd.
+DTSTART;TZID=Europe/Oslo:20261126T131000
+DTEND;TZID=Europe/Oslo:20261126T134000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
+DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen på Teams (30 min)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen – periode 24.–27.11
+DESCRIPTION:IDR1048 – Eksamen: muntlig eksamen på Teams (30 min)
 TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:utd-IDR1048-20261125-trekkoppgave@playful-naiad-32224f.netlify.app
+DTSTAMP:20261116T110000Z
+SUMMARY:IDR1048 – Trekk av eksamensoppgave (eksamen dagen etter)
+DESCRIPTION:Oppgaven trekkes 08.15 norsk tid (11.15 UAE). Eksamen 26.11 kl. 13.10.
+DTSTART;TZID=Europe/Oslo:20261125T081500
+DTEND;TZID=Europe/Oslo:20261125T083000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDR1048 – Trekk av eksamensoppgave (eksamen dagen etter)
+TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
