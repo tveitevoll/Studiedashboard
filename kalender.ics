@@ -2580,4 +2580,17 @@ DESCRIPTION:MSH-SH4100 – innlevering eksamen
 TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:utd-MASTER-20261214-horingmasteroppgave@playful-naiad-32224f.netlify.app
+DTSTAMP:20261127T080000Z
+SUMMARY:MASTER – Eksamen: høring om masteroppgaven i idrettsvitenskap (USN)
+DESCRIPTION:Dato fra Åsmund 27.11. Klokkeslett og form (Teams eller fysisk) er ikke oppgitt.
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MASTER – Eksamen: høring om masteroppgaven i idrettsvitenskap (USN)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
