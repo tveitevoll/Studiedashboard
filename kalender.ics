@@ -1279,9 +1279,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-SPM105-20261127-3ukershjemmeeksamen@playful-naiad-32224f.netlify.app
-DTSTAMP:20260809T160000Z
+DTSTAMP:20261127T080000Z
+SEQUENCE:1
 SUMMARY:SPM105 – 3-ukers hjemmeeksamen
-DESCRIPTION:Utlevering 27.11\; innlevering 18.12 kl. 14.00 i Wiseflow.
+DESCRIPTION:Utlevering 27.11 kl. 10.00\; innlevering 18.12 kl. 14.00 i WISEflow (norsk tid).
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261219
 BEGIN:VALARM
@@ -1920,10 +1921,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-KRO101-20261202-eksamen48t@playful-naiad-32224f.netlify.app
-DTSTAMP:20260824T091500Z
+DTSTAMP:20261127T080000Z
+SEQUENCE:1
 SUMMARY:KRØ101 – Eksamen: 48-timers hjemmeeksamen
-DESCRIPTION:Utlevering ons 2.12 kl. 14\, innlevering fre 4.12 kl. 14. Bestått/ikke bestått.
-DTSTART;TZID=Europe/Oslo:20261202T140000
+DESCRIPTION:WISEflow åpner ons 2.12 kl. 12\, innlevering fre 4.12 kl. 14 (norsk tid). Bestått/ikke bestått.
+DTSTART;TZID=Europe/Oslo:20261202T120000
 DTEND;TZID=Europe/Oslo:20261204T140000
 BEGIN:VALARM
 ACTION:DISPLAY
