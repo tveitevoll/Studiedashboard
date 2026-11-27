@@ -2582,15 +2582,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:utd-MASTER-20261214-horingmasteroppgave@playful-naiad-32224f.netlify.app
-DTSTAMP:20261127T080000Z
+DTSTAMP:20261127T081000Z
+SEQUENCE:1
 SUMMARY:MASTER – Eksamen: høring om masteroppgaven i idrettsvitenskap (USN)
-DESCRIPTION:Dato fra Åsmund 27.11. Klokkeslett og form (Teams eller fysisk) er ikke oppgitt.
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
+DESCRIPTION:Kl. 12.00–15.00 norsk tid (15.00–18.00 UAE). Form (Teams eller fysisk) er ikke oppgitt.
+DTSTART;TZID=Europe/Oslo:20261214T120000
+DTEND;TZID=Europe/Oslo:20261214T150000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MASTER – Eksamen: høring om masteroppgaven i idrettsvitenskap (USN)
 TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MASTER – Eksamen: høring om masteroppgaven i idrettsvitenskap (USN)
+TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 END:VCALENDAR
